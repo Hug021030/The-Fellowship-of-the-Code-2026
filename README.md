@@ -9,6 +9,8 @@
   - [Key Features of The Fellowship Companion](#key-features-of-the-fellowship-companion)
   - [Changelog](#changelog)
 
+---
+
 ## Purpose of The Fellowship Companion
 We are 5 hobbits on our great journey from the Shire to Mordor. Along the way, we need a system to support **our planning, decisions, communication and survival** The Fellowship Companion (TFC) is an evolving digital tool we build together. It is not perfect, it is not finishes - it evolves as we travel.
 
@@ -16,11 +18,15 @@ We are 5 hobbits on our great journey from the Shire to Mordor. Along the way, w
 - **What we build:** A companion system that helps manage our journey, resources and tasks
 - **Why we build it:** So our journey succeeds and we understand the mindset, logic design and practice of developers. Also to ace our lecture.
 
+---
+
 ## Rules of our Journey
 - All artifacts live in this **GitHub repo**
 - Gandalf (the AI) is our companion: We may ask him for help, but always **reflect on our decisions** in **The Red Book**
 - Peer sharing is optional but highly recommended: **it keeps the Fellowship alive.**
 - **The Red Book of Westmarch** is our reflection log and living changelog.
+
+---
 
 ## Chapters
 ### Chapter I - Setting Out
@@ -53,6 +59,8 @@ We are 5 hobbits on our great journey from the Shire to Mordor. Along the way, w
 
 [Go to Chapter V](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Chapters/Chapter%20V%20-%20The%20Tale%20Continues.md)
 
+---
+
 ## Key Features of The Fellowship Companion
 This is a work in progess as it continues to grow on our journey. We will adapt key features of TFC along with every chapter.
 - **Journey Planning:** Map, tasks, flows and deadlines
@@ -60,6 +68,8 @@ This is a work in progess as it continues to grow on our journey. We will adapt 
 - **Decision Support:** Flows and logic for key choices on the journey
 - **Communication:** Share work, reflections and AI learnings
 - **Versioned & Evolving:** Artifacts build on each other, tracked in The Red Book
+
+---
 
 ## Changelog
 
