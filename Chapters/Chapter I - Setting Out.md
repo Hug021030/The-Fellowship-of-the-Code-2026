@@ -53,4 +53,5 @@ The wizard merely guided us by suggesting possible improvements in phrasing our 
 ---
 
 ### Version Control
+- 0.2: Fixed typos
 - 0.1: Added content to our .md for our Red Book task
