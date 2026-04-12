@@ -23,7 +23,8 @@ With this brand-new technology on Middle-Earth they can develop an advantage and
 ---
 
 ### Intent
-With this magical application the members of the fellowship can easily check up on each other's status and equipment, giving them an edge over their foes as they go on their journey. With this additional information, they can prepare themselves better for upcoming battles.
+The Fellowship Companion enables members to maintain a shared understanding of their current situation, including individual status, resources, and group conditions.
+It supports coordination and decision-making by making relevant information visible and accessible, allowing the Fellowship to respond more effectively to changing circumstances throughout their journey.
 
 ---
 
