@@ -20,7 +20,8 @@ For this example see flowchart.weak.mermaid.md
 ---
 
 ## Wireframe
-[Wireframe](/src/wireframe.png)
+[Wireframe](<img width="1657" height="1107" alt="Bild (1)" src="https://github.com/user-attachments/assets/527480b5-376d-479e-b436-ccb43efab037" />
+)
 
 This wireframe illustrates a tool for users to quickly track status and items during the journey. The Overview features a vertical list with large touch-targets to ensure rapid character selection. In the Inventory Wireframe, the health bar is prioritized at the top to communicate the most critical status information instantly. The inventory is displayed as a fixed 16-slot grid, using numerical indicators to provide a read-only overview of item quantities. To minimize cognitive load, the wireframe intentionally excludes management or sorting functions. To optimize the User Journey, "Previous" and "Next" buttons allow users to cycle through the party without returning to the main menu. The "Return" button provides a consistent exit path to the start screen. Portraits in both views ensure immediate visual identification of teammates. This information hierarchy is designed to support vital decision-making in seconds. 
 
