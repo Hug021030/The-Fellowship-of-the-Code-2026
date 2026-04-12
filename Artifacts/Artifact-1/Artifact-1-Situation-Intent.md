@@ -37,6 +37,7 @@ Without our application, the fellowship would not be able to assess their resour
 
 ### System Capabilities
 The system enables the Fellowship to maintain a shared understanding of their current situation during the journey.
+
 It allows members to:
 - Understand the state of the group by making physical condition, morale, and overall readiness visible.
 - Monitor and assess available resources (e.g., food, equipment, supplies) to avoid shortages and support planning.
