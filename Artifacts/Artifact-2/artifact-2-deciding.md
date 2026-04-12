@@ -40,7 +40,6 @@ flowchart TB
 ---
 
 ## Wireframe
-[Wireframe]()
 <img width="1657" height="1107" alt="image" src="https://github.com/user-attachments/assets/b92777c0-fcda-4114-aed1-1ac3fd647fda" />
 
 
