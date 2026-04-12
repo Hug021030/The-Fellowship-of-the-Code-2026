@@ -28,4 +28,13 @@ This wireframe illustrates a tool for users to quickly track status and items du
 ---
 
 ## Design Rationale
+The HobViewer is centered around providing clarity in different situations, where uncertainty would lead to poor decisions such as misallocating food or overlooking critical health states. As described, our intent for the TFC is defined as a support tool to understand our current situation at any given moment and to be able to act accordingly. The HobViewer implements this by making each member’s status and inventory accessible to all members of the Fellowship. 
 
+Instead of adding complexity, the design prioritizes comprehension and transparency, which is crucial in a resource-constrained world. A key design decision was to structure the first page of the UI as a selection page, so that users can quickly select and access a specific member. 
+On the second page, users can access both inventory and health-bar of selected members allowing them to immediately understand the selected members condition and available resources. 
+From there, users can evaluate available resources and take appropriate actions, which supports fast decision making by providing a holistic view of the members situation. 
+
+The focus of this design was deliberately narrowed to the core interactions of viewing and managing resources. We intentionally exclude features such as confirmation dialogs and advanced item categorization. While these features would be relevant in a complete system, we’ve concluded that these aren’t essential at this stage of our journey and would distract from the main system capability that we’ve worked on:  
+**Monitor and assess available resources** 
+
+We assumed within our design choice that prioritizing fast access, clear structure and minimal interaction steps are more valuable to the Fellowship than an in-depth and complex design, resulting in various constraints. The absence of confirmation dialogs increases the risk of unintended actions. Additionally, the low fidelity requirement constrained the level of detail in the visual design, shifting the focus toward structure and interaction efficiency rather than aesthetics.
