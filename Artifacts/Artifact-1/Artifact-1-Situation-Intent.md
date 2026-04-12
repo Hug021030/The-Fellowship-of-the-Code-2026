@@ -11,7 +11,6 @@ To understand how to define system purpose and high-level requirements, the Fell
 - [Value](#value)
 - [System Capabilities](#system-capabilities)
 - [Assumptions and Constraints](#assumptions-and-constraints)
-- [Version Control](#version-control)
 
 ---
 
