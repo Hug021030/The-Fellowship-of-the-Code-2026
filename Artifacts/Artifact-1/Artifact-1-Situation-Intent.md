@@ -50,9 +50,3 @@ The "morale" bar might not always be accurate because some members (like Boromir
 Not everyone in the group is used to high-tech displays. In a stressful fight, a Hobbit might find it hard to read a complicated "Health Bar".
 - Hidden Weapons:
 The system can only see what is visible. It might miss a hidden dagger or a secret poison-tipped arrow on an enemy.
-
----
-
-### Version Control
-- 0.2 Fixed typos; added version control; refine layout
-- 0.1 Adding content of our .pdf file to .md file
