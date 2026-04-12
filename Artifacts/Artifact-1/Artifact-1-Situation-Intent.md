@@ -17,7 +17,7 @@ To understand how to define system purpose and high-level requirements, the Fell
 ### Situation
 As the fellowship travels through Middle-Earth, it gets infinitely harder to keep up with their companions. In Case they get separated, the unknown might keep them up at night. Throughout their increasingly complex journey, they might have problems coordinating and keeping an overview. Therefore, the application helps to check up on your friends.
 
-The Person Status/Inventory Viewer lets the fellowship check up on each other's weapons, mood, status and similar as they go on their journey through Middle-Earth.
+The HobViewer lets the fellowship check up on each other's weapons, mood, status and similar as they go on their journey through Middle-Earth.
 With this brand-new technology on Middle-Earth they can develop an advantage and hopefully improve their awareness and make more informed decisions under uncertainty.
 
 ---
