@@ -37,8 +37,6 @@ flowchart TB
     L -- Yes --> N
  ```
 
-For this example see flowchart.weak.mermaid.md
-
 ---
 
 ## Wireframe
