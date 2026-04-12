@@ -36,8 +36,13 @@ Without our application, the fellowship would not be able to assess their resour
 ---
 
 ### System Capabilities
-The system provides a shared overview that helps the Fellowship coordinate actions and make better decisions as a team. This shared overview can show different resources such as food, equipment and supplies in an inventory-like manner. It allows the members to manage and track their inventory, ensuring that resources are organized and efficiently used, hence reducing the risk of e.g. having no arrows left in their quiver.
-The system lets members monitor physical and emotional states of the group, helping them stay aware of injuries, morale, fatigue and overall mood.
+The system enables the Fellowship to maintain a shared understanding of their current situation during the journey.
+It allows members to:
+- Understand the state of the group by making physical condition, morale, and overall readiness visible.
+- Monitor and assess available resources (e.g., food, equipment, supplies) to avoid shortages and support planning.
+- Recognize changes and risks early, such as declining health or critical resource levels.
+- Coordinate actions effectively by ensuring all members have access to the same relevant information.
+- Make informed decisions under uncertainty, based on a clear and shared overview of the situation.
 
 ---
 
