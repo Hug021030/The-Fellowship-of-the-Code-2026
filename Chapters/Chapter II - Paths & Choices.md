@@ -20,7 +20,9 @@ It shows **what was added, why it was added, and how it fits into the larger sys
 **Learning Outcomes**
 
 - Understand [concept / skill of the phase]
+  to understand how our feature shall look like and what's the usecase of it
 - Apply [tool / language / logic] to build [artifact]
+  mermaid.ai, whiteboard teams (creating wireframe), gandalf AI
 - Reflect on AI-assisted development and decision-making
 - Contribute to a **shared, evolving system**
 
@@ -59,5 +61,9 @@ It shows **what was added, why it was added, and how it fits into the larger sys
 ## Lessons Learned
 
 *`Adapt to your project...`*
-
+- created flowcharts and wireframe with help of AI
+- lot to doucment before starting the work
+- flowchart and wireframe should align -> every extra button/feature on the wireframe leads to an extra path in the flowchart
+- discuss earlier how our feature shall look like
+  
 - Insights, challenges, reflections
