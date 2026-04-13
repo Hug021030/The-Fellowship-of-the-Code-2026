@@ -20,11 +20,9 @@ It shows **what was added, why it was added, and how it fits into the larger sys
 **Learning Outcomes**
 
 - Understand [concept / skill of the phase]
-  to understand how our feature shall look like and what's the usecase of it
-  
+  Georg: to understand how our feature shall look like and what's the usecase of it
 - Apply [tool / language / logic] to build [artifact]
-  mermaid.ai, whiteboard teams (creating wireframe), gandalf AI
-  
+  Georg: mermaid.ai, whiteboard teams (creating wireframe), gandalf AI
 - Reflect on AI-assisted development and decision-making
 - Contribute to a **shared, evolving system**
 
