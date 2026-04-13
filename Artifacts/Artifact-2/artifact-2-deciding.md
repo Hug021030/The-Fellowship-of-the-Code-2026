@@ -3,9 +3,13 @@
 ---
 
 ## System Capability
+The system enables the Fellowship to maintain a shared understanding of each member's condition and the availability of resources.
+
 As our group has left the Shire to move to our first destination toward Bree, on our endeavor to destroy the ring, we have decided that the HobViewer (formerly known as the Person Status/Inventory Viewer) will be our first feature to build inside The Fellowship Companion *(TFC)*.
 Since we hobbits are known for being gluttonous and tend to be scatterbrained, we have come to the conclusion that having a clear and concise intel of our personal and material ressources at any given moment will prove to be essential.
 Otherwise, our journey is deemed to end in failure before we have even reached the Mistey Mountains.
+
+This capability is therefore essential, as it allows the group to detect risks early and make informed decisions. At this early stage of the journey, establishing a shared awareness creates the foundation for effective coordination and prevents small issues from escalating into critical problems.
 
 ---
 
