@@ -14,7 +14,9 @@
 
 ## Summary
 
-*`Adapt to your project...`*
+**File:**
+
+[Artifact 1 - TFC: Situation & Intent](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-2/artifact-2-deciding.md)
 
 This chapter focuses on **[one specific requirement or artifact]** of The Fellowship Companion.
 It shows **what was added, why it was added, and how it fits into the larger system**.
