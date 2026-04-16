@@ -1,4 +1,4 @@
-# Artifact II: Decisions
+# Artifact II - Decisions
 
 ---
 
