@@ -22,23 +22,21 @@ We've unwraped our quills and parchment to design the workflow-chart of how the 
 
 ## Artifact
 
-*`Adapt to your project...`*
-
 **File:** 
 
-[Artifact II: Decisions](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-2/artifact-2-deciding.md)
+[Artifact II - Decisions](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-2/artifact-2-deciding.md)
 
 **Build:**
 
-A Mermaid flowchart, representing the systems behaviour and a low-fidelity wireframe representing the user interface
-
-... [requirements document / Mermaid flow / wireframe / HTML + CSS page / JavaScript page / low-code extension]
+Mermaid flowchart, representing the systems behaviour and a low-fidelity wireframe representing the user interface.
+Adding
 
 **Focus:**
 
-The HobViewer capability, specifically how users access and ionteract with member status, equipment and resources in order to support easier decision making.
+The HobViewer capability, specifically how users access and interact with member status, equipment and resources in order to support easier decision making.
+Flowchart is designed to visualize the key steps of the user journey, while the wireframe is designed to focus on the what the user sees when interacting with the HobViewer and providing a neat user interface.
 
-... [specific feature of the system / requirement addressed]
+System capability explains our the *Why* behind our decision, while the design rationale provides insight to our decision making process for both flowchart and wireframe aswell as assumptions made in creating our very first design of the TFC's first capability: **Monitor and assess available resources**
 
 ---
 
