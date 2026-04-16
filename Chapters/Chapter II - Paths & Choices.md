@@ -1,6 +1,6 @@
 # The Red Book of Westmarch - Chapter X: Title
 
-*`LOTR Quote relevant to the assignment or artifact` `"..." - Character`*
+*`"All we have to decide is what to do with the time that is given us." - Gandalf the Grey`*
 
 **Table of Contents**
 
@@ -14,9 +14,9 @@
 
 ## Summary
 
-This chapter focuses on the design of the HobViewer capability of The Fellowship Companion. At this stage of the project, the goal was to move from a general idea to a concrete representation of how the feature works from a user’s perspective.  
+As we are on our way to our first destination along the journey, we've decided to make the most out of the time we have been given. Hence, we focused our brainpower on what capability to build first inside our TFC, while eating our Lembasbread for second breakfast. While munching away our last supplies, we have come to the conclusion that without a concrete overview of our ressources we are doomed to fail. Alas, our first capability will be the HobViewer.
 
-The HobViewer was developed to support the Fellowship in monitoring and assessing member condition and available resources. This chapter documents how the interaction flow and interface were designed, why specific decisions were made, and how this capability contributes to the overall system.
+We've unwraped our quills and parchment to design the workflow-chart of how the HobViewer is supposed to work accompanied by a low-fidelity wireframe representing a conceptual user interface as to how it shall look like from a user's perspective. The HobViewer was developed to support the Fellowship in monitoring and assessing member condition and available resources. As we are "sneaky little Hobbitses" we've written down everthing that has been done so far inside this very chapter of the Redbook to document artefacts such as the the interaction workflow and the wireframe aswell as our retrospective of our sprint, which contains our lessons learned and how Gandalf the Grey guided us.   
 
 **Learning Outcomes**
 
