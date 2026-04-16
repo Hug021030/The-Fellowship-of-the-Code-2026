@@ -18,22 +18,6 @@ As we are on our way to our first destination along the journey, we've decided t
 
 We've unwraped our quills and parchment to design the workflow-chart of how the HobViewer is supposed to work accompanied by a low-fidelity wireframe representing a conceptual user interface as to how it shall look like from a user's perspective. The HobViewer was developed to support the Fellowship in monitoring and assessing member condition and available resources. As we are "sneaky little Hobbitses" we've written down everthing that has been done so far inside this very chapter of the Redbook to document artefacts such as the the interaction workflow and the wireframe aswell as our retrospective of our sprint, which contains our lessons learned and how Gandalf the Grey guided us.   
 
-**Learning Outcomes**
-
-- Understand [concept / skill of the phase]
-  Georg: to understand how our feature shall look like and what's the usecase of it
-  
-  Jusuf: understanding more about the overall process of developing something and why certain steps are needed. Learning how to structure a system using a Flowchart.
-  
-- Apply [tool / language / logic] to build [artifact]
-- 
-  Georg: mermaid.ai, whiteboard teams (creating wireframe), gandalf AI
-  
-  Jusuf: mermaid.ai, gandalf AI, MS word
-  
-- Reflect on AI-assisted development and decision-making
-- Contribute to a **shared, evolving system**
-
 ---
 
 ## Artifact
@@ -78,20 +62,25 @@ The HobViewer capability, specifically how users access and ionteract with membe
   
 - What would I do differently next time?
 
+- Alex: 
 ---
 
 ## Lessons Learned
 
 *`Adapt to your project...`*
+
 - created flowcharts and wireframe with help of AI
-- 
+
+- Georg: to understand how our feature shall look like and what's the usecase of it
+- Georg: mermaid.ai, whiteboard teams (creating wireframe), gandalf AI
+  
   Jusuf: A lot needs to be documented before starting the work.
   flowchart and wireframe should align -> every extra button/feature on the wireframe leads to an extra path in the flowchart
-  
-- discuss earlier how our feature shall look like
-- 
-- Jusuf: Flowchart and Wireframe should align --> every extra button or feature in the wireframe leads to an additional path in the flowchart
--   
-- Insights, challenges, reflections
-- 
+  discuss earlier how our feature shall look like
+  Jusuf: Flowchart and Wireframe should align --> every extra button or feature in the wireframe leads to an additional path in the flowchart
+  Jusuf: mermaid.ai, gandalf AI, MS word
+- Jusuf: understanding more about the overall process of developing something and why certain steps are needed. Learning how to structure a system using a Flowchart.
+
 Jusuf: A key learning was that proper planning and documentation before starting helps to avoid inconsistencies and problems later on. I also learned that simplifying the features is essential. Trying to include too many details or actions makes the system harder to understand and design. Working with Ai can help speeding up the process, however it does not replace the need to think through the logic and structure of the system itself.
+
+- Alex: After deciding the capability, we've tried to intuitively split the tasks between us fairly in our working session: A few members provide the wireframe, while a few members work on the flowchart and the other member providing the text for system capability and design rationale. We went into focus groups after the division of tasks. Subsequently we've realized it is impossible due to dependency of each subtask. Hence we've come together to do it all together waiving the division. Another topic we had was the capability itself. How in-depht do we wanna go? Shall it be a MVP or a capability with multiple flows? Alas, we have decided on the first option, as it is our first time developing. Less is more and it's better doing babysteps learning to walk than doing a leap of faith 50m into a bale of hay.
