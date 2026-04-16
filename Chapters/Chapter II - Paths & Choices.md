@@ -62,7 +62,7 @@ The HobViewer capability, specifically how users access and ionteract with membe
   
 - What would I do differently next time?
 
-- Alex: 
+- Alex: We've tried to consult Gandalf regarding the mermaid flowchart. We've prompted the sequences and actions/questions to be depicted and hoped for a finished product. Unfortunately that didn't work out as the flow was all over the place semantically and syntax-wise. Though not usable itself, it gave as a look into how it *could* look like and providing at least the code behind it helped us building our flowchart in mermaid from scratch. For the future I would go into the prompt with a different expectation, but totally would go for it again as a weak example to assess and learn from as a starting point of the work that follows.
 ---
 
 ## Lessons Learned
