@@ -29,7 +29,6 @@ We've unwraped our quills and parchment to design the workflow-chart of how the 
 **Build:**
 
 Mermaid flowchart, representing the systems behaviour and a low-fidelity wireframe representing the user interface.
-Adding
 
 **Focus:**
 
