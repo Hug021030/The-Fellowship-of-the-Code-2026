@@ -1,4 +1,4 @@
-# Artifact 1 - TFC: Situation & Intent
+# Artifact I - Situation & Intent
 ## Introductory 
 To understand how to define system purpose and high-level requirements, the Fellowship creates their first conceptual artifact, documented in text. Within their artifact the Fellowship defined situation, intent, value, system capabilities aswell as assumptions & constraints as the foundation for further development of the first feature of their Fellowship Companion. 
 
