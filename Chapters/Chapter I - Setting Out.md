@@ -22,7 +22,7 @@ On our very first steps outisde Hobbiton, the Fellowship set out to get to know 
 
 **File:**
 
-[Artifact 1 - TFC: Situation & Intent](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-1/Artifact-1-Situation-Intent.md)
+[Artifact 1 - Situation & Intent](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-1/Artifact-1-Situation-Intent.md)
 
 **Build:**
 
