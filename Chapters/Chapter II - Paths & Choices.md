@@ -40,44 +40,24 @@ System capability explains our the *Why* behind our decision, while the design r
 ---
 
 ## AI Assistance
+Questions:
+What did I expect?
+What actually happened?
+How did AI help or mislead me?
+What decision (changes) did I make consciously?
+What would I do differently next time?
 
-*`Adapt to your project...`*
-
-- What did I expect?
-- 
-  Jusuf: I expected Ai to help with generating structured flowcharts and supporting the creation of the wireframe.
-  
-- What actually happened?
-- 
-  Jusuf: The Ai-generated Flowchart was relatively bad and needed a complete overhaul.
-  
-- How did AI help or mislead me?
-- 
-- What decision (changes) did I make consciously?
-- 
-  Jusuf: We adjusted the flowchart to ensure that it aligns with our idea. We also simplified parts of the design to keep the feature clean.
-  
-- What would I do differently next time?
+- Jusuf: We expected AI to help us with generating structured flowcharts and supporting us in the creation of the wireframe. The result was underwhelming, the AI generated flowchart was relatively bad and needed a complete overhaul, which concluded in us doing it by ourselves. This was necessary so that the flowchart aligns with the idea we have envisioned. Also, the provided flowchart was way too complex and all over the place, which is why we used it as a weak example to design our simplified flow to keep our feature clean and comprehensible. 
 
 - Alex: We've tried to consult Gandalf regarding the mermaid flowchart. We've prompted the sequences and actions/questions to be depicted and hoped for a finished product. Unfortunately that didn't work out as the flow was all over the place semantically and syntax-wise. Though not usable itself, it gave as a look into how it *could* look like and providing at least the code behind it helped us building our flowchart in mermaid from scratch. For the future I would go into the prompt with a different expectation, but totally would go for it again as a weak example to assess and learn from as a starting point of the work that follows.
 ---
 
 ## Lessons Learned
+Questions
+Insights, challenges, reflections
 
-*`Adapt to your project...`*
+- Georg: I've gained a deeper understanding in design choices by learning how to use Mermaid and Whiteboard Teams (for the wireframe) in cooperation with AI to envision how our feature shall look like, what the use case of it is and how to reason certain features around the present system capabilities to explain design choices both procedurally and visually. Gandalf enlighted us with wisdom, showing us paths and possibilities, while we ourselves made the decisions.
 
-- created flowcharts and wireframe with help of AI
-
-- Georg: to understand how our feature shall look like and what's the usecase of it
-- Georg: mermaid.ai, whiteboard teams (creating wireframe), gandalf AI
-  
-  Jusuf: A lot needs to be documented before starting the work.
-  flowchart and wireframe should align -> every extra button/feature on the wireframe leads to an extra path in the flowchart
-  discuss earlier how our feature shall look like
-  Jusuf: Flowchart and Wireframe should align --> every extra button or feature in the wireframe leads to an additional path in the flowchart
-  Jusuf: mermaid.ai, gandalf AI, MS word
-- Jusuf: understanding more about the overall process of developing something and why certain steps are needed. Learning how to structure a system using a Flowchart.
-
-Jusuf: A key learning was that proper planning and documentation before starting helps to avoid inconsistencies and problems later on. I also learned that simplifying the features is essential. Trying to include too many details or actions makes the system harder to understand and design. Working with Ai can help speeding up the process, however it does not replace the need to think through the logic and structure of the system itself.
+- Jusuf: A key learning was that proper planning and documentation helps before starting to avoid inconsistencies and problems later on. I also learned that simplifying the features is essential. Trying to include too many details or actions makes the system harder to understand and design. Working with AI can help speeding up the process, however it does not replace the need to think through the logic and structure of the system itself. Also, flowchart and wireframe are two sides of the same coin: you cannot do both seperately. Understanding how to structure a system by doing both at once helps understanding the overall process of developing and why certain steps are needed to be done in a specific order. Learned alot about using Mermaid, Whiteboard and AI in unison.
 
 - Alex: After deciding the capability, we've tried to intuitively split the tasks between us fairly in our working session: A few members provide the wireframe, while a few members work on the flowchart and the other member providing the text for system capability and design rationale. We went into focus groups after the division of tasks. Subsequently we've realized it is impossible due to dependency of each subtask. Hence we've come together to do it all together waiving the division. Another topic we had was the capability itself. How in-depht do we wanna go? Shall it be a MVP or a capability with multiple flows? Alas, we have decided on the first option, as it is our first time developing. Less is more and it's better doing babysteps learning to walk than doing a leap of faith 50m into a bale of hay.
