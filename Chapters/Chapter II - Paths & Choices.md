@@ -1,4 +1,4 @@
-# The Red Book of Westmarch - Chapter X: Title
+# The Red Book of Westmarch - Chapter II: Paths & Choices
 
 *`"All we have to decide is what to do with the time that is given us." - Gandalf the Grey`*
 
@@ -24,7 +24,7 @@ We've unwraped our quills and parchment to design the workflow-chart of how the 
 
 **File:** 
 
-[Artifact II - Decisions](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-2/artifact-2-deciding.md)
+[Artifact II - Decisions](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-2/artifact-2-decisions.md)
 
 **Build:**
 
