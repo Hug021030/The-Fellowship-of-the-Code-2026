@@ -44,7 +44,7 @@ flowchart TB
 ---
 
 ## Wireframe
-<img width="1657" height="1107" alt="image" src="https://github.com/user-attachments/assets/b92777c0-fcda-4114-aed1-1ac3fd647fda" />
+![Wireframe](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-2/src/decision.png)
 
 
 This wireframe illustrates a tool for users to quickly track status and items during the journey. The Overview features a vertical list with large touch-targets to ensure rapid character selection. In the Inventory Wireframe, the health bar is prioritized at the top to communicate the most critical status information instantly. The inventory is displayed as a fixed 16-slot grid, using numerical indicators to provide a read-only overview of item quantities. To minimize cognitive load, the wireframe intentionally excludes management or sorting functions. To optimize the User Journey, "Previous" and "Next" buttons allow users to cycle through the party without returning to the main menu. The "Return" button provides a consistent exit path to the start screen. Portraits in both views ensure immediate visual identification of teammates. This information hierarchy is designed to support vital decision-making in seconds. 
