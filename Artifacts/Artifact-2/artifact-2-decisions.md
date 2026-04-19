@@ -19,27 +19,7 @@ The flowchart describes how a user interacts with the HobViewer to monitor Fello
 The user starts by opening the HobViewer and selecting a member to view their status. From there, they can navigate between members to maintain an overview. If a problem is detected, such as insufficient resources, the user identifies critical items and decides whether action is needed.
 If action is required, the user can either use items directly (e.g., consume resources) or reallocate them between members. After completing the action, the system updates the situation and returns the user to the overview, allowing continuous monitoring and decision-making.
 
-```mermaid
-flowchart TB
-    A["Open The HobViewer"] --> B
-    B["Choose member to monitor"]
-    B -- Done Monitoring --> M["Close the HobViewer"]
-    B --> C["Display member's page"]
-
-    C --> N["Return"] --> B
-    C --> O["Next Hobbit"] --> C
-    C --> P["Previous Hobbit"] --> C
-    C -- Resources unsufficient --> G["Identify critical items"]
-    
-    G --> H{"take action?"} -- No --> N 
-    H -- Yes --> J["reallocate items"]
-    H -- Yes --> I["Interact with item eg. eat"] --> L
-    J --> K["choose member"] --> L
-  
-    L["Done?"]
-    L -- No --> H
-    L -- Yes --> N
- ```
+![Mermaid Flowchart](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-2/src/decision.mermaid.md)
 
 ---
 
