@@ -68,5 +68,7 @@ Insights, challenges, reflections
 ---
 
 ### Version Control
-- 0.2: Fixed typos
-- 0.1: Added content to our .md for our Red Book task
+- 0.4: fixed typos
+- 0.3: added contet to AI usage and leassons learned
+- 0.2: added first content to summary & artifact
+- 0.1: copy/past of chapter I
