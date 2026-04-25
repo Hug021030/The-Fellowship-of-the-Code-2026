@@ -50,6 +50,7 @@ What would I do differently next time?
 - Jusuf: We expected AI to help us with generating structured flowcharts and supporting us in the creation of the wireframe. The result was underwhelming, the AI generated flowchart was relatively bad and needed a complete overhaul, which concluded in us doing it by ourselves. This was necessary so that the flowchart aligns with the idea we have envisioned. Also, the provided flowchart was way too complex and all over the place, which is why we used it as a weak example to design our simplified flow to keep our feature clean and comprehensible. 
 
 - Alex: We've tried to consult Gandalf regarding the mermaid flowchart. We've prompted the sequences and actions/questions to be depicted and hoped for a finished product. Unfortunately that didn't work out as the flow was all over the place semantically and syntax-wise. Though not usable itself, it gave as a look into how it *could* look like and providing at least the code behind it helped us building our flowchart in mermaid from scratch. For the future I would go into the prompt with a different expectation, but totally would go for it again as a weak example to assess and learn from as a starting point of the work that follows.
+
 ---
 
 ## Lessons Learned
@@ -63,3 +64,9 @@ Insights, challenges, reflections
 - Alex: After deciding the capability, we've tried to intuitively split the tasks between us fairly in our working session: A few members provide the wireframe, while a few members work on the flowchart and the other member providing the text for system capability and design rationale. We went into focus groups after the division of tasks. Subsequently we've realized it is impossible due to dependency of each subtask. Hence we've come together to do it all together waiving the division. Another topic we had was the capability itself. How in-depht do we wanna go? Shall it be a MVP or a capability with multiple flows? Alas, we have decided on the first option, as it is our first time developing. Less is more and it's better doing babysteps learning to walk than doing a leap of faith 50m into a bale of hay.
 
 - Gabriel: This project taught me that good planning is the most important step. At first, we tried to work separately, but we quickly realized that wireframes and flowcharts must be done together. I learned how to use AI correctly. I leanred how to use Mermaid, and Whiteboard as a team to visualize our ideas. I also learned that "less is more." Instead of making a complex system, we focused on a simple MVP. Making "baby steps" helped us understand the logic better. AI is a great help for speed. - but we still had to make the final decisions ourselves.
+
+---
+
+### Version Control
+- 0.2: Fixed typos
+- 0.1: Added content to our .md for our Red Book task
