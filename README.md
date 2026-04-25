@@ -82,7 +82,13 @@ Each chapter has it's own detailed changelog for chapter-specific updates.```*
 - Compile our README.md
 
 ###Version 0.2
-- TBA
+- artifact-1-situation-intend.md added
+- chapter I - setting out.md added
+
+###Version 0.3
+- artifact-2-decision.md added
+- src added, containing mermaid workflow and wireframe
+- chapter II - paths & choices.md added
 
 
 *```by Hann, Hochmeister, Hu, Ipser, Neuberger```*
