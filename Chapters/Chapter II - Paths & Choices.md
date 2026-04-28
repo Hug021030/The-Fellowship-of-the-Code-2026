@@ -9,6 +9,7 @@
   - [Artifact](#artifact)
   - [AI Assistance](#ai-assistance)
   - [Lessons Learned](#lessons-learned)
+  - [Version Control](#version-control)
 
 ---
 
@@ -68,6 +69,7 @@ Insights, challenges, reflections
 ---
 
 ### Version Control
+- 0.5: evaluated feedback from our professor to commit adaptations to our flowchart and wireframe 
 - 0.4: fixed typos
 - 0.3: added contet to AI usage and leassons learned
 - 0.2: added first content to summary & artifact
