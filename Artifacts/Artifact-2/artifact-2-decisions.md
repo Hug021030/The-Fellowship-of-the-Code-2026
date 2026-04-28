@@ -1,5 +1,12 @@
 # Artifact II - Decisions
 
+## Table of Contents
+
+- [System Capability](#system-capability)
+- [Flowchart](#flowchart)
+- [Wireframe](#wireframe)
+- [Design Rationale](#design-rationale)
+
 ---
 
 ## System Capability
