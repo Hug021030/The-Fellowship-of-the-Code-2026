@@ -26,6 +26,18 @@ ul {
     margin: 0;
 }
 
+li a {
+    background-color: #b8b8b8;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 main {
     background-color: white;
     border: 3px solid black;
