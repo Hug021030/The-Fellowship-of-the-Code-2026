@@ -2,3 +2,29 @@ body {
     margin: 0;
     background: #355834 ;
 }
+
+
+.header {
+    text-align: center;
+    color: #433a3f;
+    font-family: 'Acme', sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.header2{
+    text-align: center;
+    color: #433a3f;
+    font-family: "Palatino Linotype";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+p {
+    
+}
+
+footer{
+    text-align: center;
+}
