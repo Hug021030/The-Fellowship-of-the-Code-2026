@@ -43,6 +43,9 @@ li a {
     font-weight: bold;
 }
 
+header img {
+    width: 80px;
+}
 
 main {
     background-color: white;
