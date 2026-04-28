@@ -1,6 +1,10 @@
 # Artifact III - Representation
 
-*insert a witty LOTR quote here*
+## Table of Contents
+
+- [System Capabilitiy](#system-capability)
+- [Static Interface Implementation](#static-interface-implementation)
+- [Design Rationale](#design-rationale)
 
 ---
 
