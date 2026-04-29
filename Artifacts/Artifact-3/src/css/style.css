@@ -5,12 +5,17 @@ body {
 
 
 .header {
-    text-align: center;
     color: #433a3f;
     font-family: 'Acme', sans-serif;
     font-size: 80px;
     font-weight: 100;
     margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .header2{
