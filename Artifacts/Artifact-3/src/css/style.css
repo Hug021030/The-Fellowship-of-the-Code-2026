@@ -46,6 +46,7 @@ li a {
     text-decoration: none;
     padding: 12px 40px;
     max-width: 450px;
+    margin: 0 auto;
     text-align: center;
     transform: skewX(-20deg);
     display: block;
