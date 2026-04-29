@@ -44,12 +44,19 @@ li a {
     border: 2px solid black;
     color: black;
     text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    text-transform: uppercase;
-    font-weight: bold;
+    padding: 12px 40px;
     flex: 1;
     text-align: center;
+    transform: skewX(-20deg);
+    display: block;
+}
+
+li a span {
+    display: inline-block;
+    transform: skewX(20deg);
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 main {
