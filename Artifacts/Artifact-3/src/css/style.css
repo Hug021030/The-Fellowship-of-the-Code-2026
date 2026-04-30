@@ -5,11 +5,12 @@ body {
 
 
 .header {
-    color: #433a3f;
     font-family: Arial, sans-serif;
     font-size: 55px;
     font-weight: bold;
     margin: 0;
+    position: absolute;
+    left: 50%;
 }
 
 header {
