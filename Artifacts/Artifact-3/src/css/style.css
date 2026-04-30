@@ -28,8 +28,6 @@ body {
     font-family: "Palatino Linotype";
     font-size: 40px;
     font-weight: bold;
-    display: flex;
-    align-items: center;
 }
 
 .hobbit-list ul {
