@@ -80,6 +80,7 @@ body {
 
 .app-header img {
     width: auto;
+    height: auto;
     max-height: 120px;
     max-width: 120px;
     margin: 0;
