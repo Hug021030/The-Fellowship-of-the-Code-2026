@@ -34,6 +34,13 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    transition: 0.2s;
+}
+
+.hobbit-list:hover {
+      background: #e0e0e0;
+      transform: scale(1.03);
+      cursor: pointer;
 }
 
 .hobbit-list li  {
