@@ -58,7 +58,7 @@ body {
 
 .hobbit-list li a:hover {
       background: #e0e0e0;
-      transform: skewX(-20deg), scale(1.03);
+      transform: skewX(-20deg), scale(1.08);
       cursor: pointer;
 }
 
