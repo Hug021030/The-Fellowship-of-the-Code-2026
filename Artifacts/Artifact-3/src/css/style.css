@@ -69,7 +69,9 @@ main {
 }
 
 header img {
-    width: 80px;
+    width: auto;
+    height: 100%;
+    max-height: 120px;
 }
 
 p {
