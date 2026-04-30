@@ -77,6 +77,9 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
   margin-bottom: 20px;
 }
 
@@ -89,7 +92,7 @@ body {
   transition: 0.2s;
 }
 
-/* HOVER EFFECT (Game Feeling 👀) */
+/* HOVER EFFECT */
 .item:hover {
   background: #e0e0e0;
   transform: scale(1.03);
@@ -105,7 +108,8 @@ body {
 
 /* IMAGE BOX */
 .item-image {
-  height: 60px;
+  height: 100%;
+  max-width: 150px;
   border: 2px solid #000;
   display: flex;
   align-items: center;
