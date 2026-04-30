@@ -152,9 +152,13 @@ body {
   bottom: 8px;
   right: 8px;
   z-index: 10;
+ font-family: Georgia, sans-serif;
+  font-variant: small-caps;
   font-size: 12px;
+  letter-spacing: 0.5px;
   font-weight: bold;
-  background: #FFFFFF33;
+  color: #b8860b;
+  text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000
 }
 
 /* NAVIGATION */
