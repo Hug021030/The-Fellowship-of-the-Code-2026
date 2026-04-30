@@ -74,7 +74,6 @@ body {
 
 .healthbar-fill {
   height: 100%;
-  /* Ein schönes, dunkles Blutrot */
   background: linear-gradient(to right, #660000, #b30000); 
   transition: width 0.4s ease-in-out;
 }
