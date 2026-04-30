@@ -7,7 +7,7 @@
 
 /* BODY */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Georgia, sans-serif;
   background: #e6e6e6;
   display: flex;
   justify-content: center;
@@ -33,6 +33,7 @@ body {
   border: 2px solid #000;
   padding: 0;
   margin-bottom: 25px;
+  border-radius: 10px;
 }
 
 .feature-title img {
@@ -49,7 +50,12 @@ body {
   transform: translateX(-50%);
   font-size: 55px;
   font-weight: bold;
-  border-radius: 12px;
+  text-align: center;
+  font-family: Georgia, sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+  color: #b8860b;
+  text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000
 }
 
 /* MEMBER INFO */
