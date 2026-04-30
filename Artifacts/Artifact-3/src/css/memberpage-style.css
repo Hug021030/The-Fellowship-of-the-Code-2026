@@ -87,7 +87,8 @@ body {
 }
 
 .healthbar-container {
-  flex-grow: 1;        /* Die Leiste nimmt den restlichen Platz ein */
+  flex-grow: 1;
+  position: relative;
   height: 25px;
   background-color: #222;
   border: 2px solid #330000;
@@ -98,6 +99,24 @@ body {
 .healthbar-fill {
   height: 100%;
   background: linear-gradient(to right, #660000, #b30000);
+}
+
+.hp-percent-text {
+  position: absolute;
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%);
+  font-family: Georgia, sans-serif;
+  font-size: 15px
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none
+}
+
+.healthbar-container:hover .hp-percent-text {
+  opacity: 1;
 }
 
 /* GRID */
