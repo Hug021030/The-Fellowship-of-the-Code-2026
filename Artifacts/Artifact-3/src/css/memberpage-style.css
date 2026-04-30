@@ -108,17 +108,20 @@ body {
 /* ITEM TITLE */
 .item-title {
   position: absolute;
-  top: 8px;
+  top: 6px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
+  width: 90%;
   text-align: center;
   font-family: Georgia, sans-serif;
   font-variant: small-caps;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
   font-weight: bold;
-  color: #d4af37;
-  text-shadow: #00000080;
+  white-space: nowrap;
+  color: #b8860b;
+  text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000
 }
 
 /* IMAGE BOX */
