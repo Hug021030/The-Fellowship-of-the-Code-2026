@@ -28,15 +28,16 @@ body {
   display: flex;
   align-items: center;
   border: 2px solid #000;
-  padding: 25px;
+  padding: 0;
   margin-bottom: 25px;
 }
 
 .feature-title img {
-  height: 55px;
+  height: 100%;
+  max-height: 120px;
   width: auto;
-  display: block
-  object-fit: contain
+  display: block;
+  object-fit: contain;
 }
 
 .feature-title h1 {
