@@ -8,18 +8,18 @@
 /* BODY */
 body {
   font-family: Georgia, sans-serif;
-  background: #e6e6e6;
+  background: #1a1612;
   display: flex;
   justify-content: center;
-  padding: 11px;
+  padding: 20px;
 }
 
 /* MAIN CONTAINER */
 .inventory {
   width: 100%;
   max-width: 1000px;
-  background: #ffffff;
-  border: 2px solid #000;
+  background: #4a3d33;
+  border: 3px solid #261e18;
   padding: 15px;
   margin: 0 auto;
   border-radius: 15px;
@@ -30,8 +30,6 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  border: 2px solid #000;
-  padding: 0;
   margin-bottom: 25px;
   border-radius: 10px;
 }
@@ -59,10 +57,12 @@ body {
 
 /* MEMBER INFO */
 .member-info {
-  border: 2px solid #000;
+  border: 2px solid #261e18;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 12px;
+  background-color: #55483d;
+  
 }
 
 .member-name {
@@ -188,9 +188,9 @@ body {
   padding: 10px;
   border: 2px solid #000;
   border-radius: 8px;
-  background: #eee;
+  background: #5f5145;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.3s ease;
   font-family: Georgia, sans-serif;
   font-variant: small-caps;
   font-size: 20px;
