@@ -65,14 +65,22 @@ body {
 /* HEALTHBAR */
 .healthbar {
   display: flex;
-  align-items: center;
-  gap: 15px;
+  align-items: center; /* Zentriert HP vertikal zur Leiste */
+  gap: 15px;           /* Abstand zwischen HP und der Leiste */
   width: 100%;
+  font-family:  Comic Sans MS, sans-serif;
+  font-variant: small-caps;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  color: #b8860b;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px #000000, -1px -1px 1px #000000
+
+
 }
 
 .healthbar-container {
-  flex-grow: 1;
-  width: 100%;
+  flex-grow: 1;        /* Die Leiste nimmt den restlichen Platz ein */
   height: 25px;
   background-color: #222;
   border: 2px solid #330000;
@@ -82,8 +90,7 @@ body {
 
 .healthbar-fill {
   height: 100%;
-  background: linear-gradient(to right, #660000, #b30000); 
-  transition: width 0.4s ease-in-out;
+  background: linear-gradient(to right, #660000, #b30000);
 }
 
 /* GRID */
@@ -103,8 +110,8 @@ body {
   position: relative;
   transition: 0.2s;
   overflow: hidden;
-  aspect-ratio: 1 / 1;
   display: flex;
+  aspect-ratio: 1/1;
   align-items: center;
   justify-content: center;
 }
@@ -186,5 +193,5 @@ footer {
   margin-top: 20px;
   text-align: center;
   font-size: 10px;
-  font-weight: italic;
+  font-style: italic;
 }
