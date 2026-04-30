@@ -73,8 +73,8 @@ body {
 /* HEALTHBAR */
 .healthbar {
   display: flex;
-  align-items: center; /* Zentriert HP vertikal zur Leiste */
-  gap: 15px;           /* Abstand zwischen HP und der Leiste */
+  align-items: center;
+  gap: 15px;      
   width: 100%;
   font-family:  Comic Sans MS, sans-serif;
   font-variant: small-caps;
@@ -82,8 +82,6 @@ body {
   letter-spacing: 0.5px;
   color: #b8860b;
   font-weight: bold;
-
-
 }
 
 .healthbar-container {
@@ -103,16 +101,16 @@ body {
 
 .hp-percent-text {
   position: absolute;
-  top: 50%
-  left: 50%
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-family: Georgia, sans-serif;
-  font-size: 15px
+  font-size: 15px;
   color: #ffffff;
   text-shadow: 1px 1px 2px #000;
   opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none
+  pointer-events: none;
 }
 
 .healthbar-container:hover .hp-percent-text {
