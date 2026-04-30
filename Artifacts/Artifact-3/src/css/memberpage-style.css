@@ -108,13 +108,9 @@ body {
 
 /* IMAGE BOX */
 .item-image {
-  height: 100%;
-  max-width: 150px;
-  border: 2px solid #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #ddd;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* ITEM COUNT (unten rechts) */
