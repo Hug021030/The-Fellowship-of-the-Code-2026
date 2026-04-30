@@ -27,6 +27,7 @@ header {
     font-family: "Palatino Linotype";
     font-size: 40px;
     font-weight: bold;
+    display: flex;
 }
 
 ul {
