@@ -35,6 +35,8 @@ body {
 .feature-title img {
   height: 55px;
   width: auto;
+  display: block
+  object-fit: contain
 }
 
 .feature-title h1 {
