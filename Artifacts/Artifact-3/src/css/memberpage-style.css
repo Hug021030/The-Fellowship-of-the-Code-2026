@@ -32,6 +32,11 @@ body {
   margin-bottom: 25px;
 }
 
+.feature-title img {
+  height: 80px;
+  width: auto;
+}
+
 .feature-title h1 {
   position: absolute;
   left: 50%;
