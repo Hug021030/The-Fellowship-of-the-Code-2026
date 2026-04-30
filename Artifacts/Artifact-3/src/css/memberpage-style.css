@@ -102,7 +102,11 @@ body {
 /* ITEM TITLE */
 .item-title {
   text-align: center;
+  font-family: Georgia, sans-serif;
+  font-variant: small-caps;
   font-size: 12px;
+  color: #d4af37;
+  
   margin-bottom: 5px;
 }
 
