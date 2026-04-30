@@ -36,6 +36,12 @@ body {
     margin: 0;
 }
 
+.hobbit-list img {
+    width: 50px;
+    height: 50px;
+    object-fit; cover;
+}
+
 .hobbit-list li  {
     display: flex;
     align-items: center;
@@ -74,7 +80,7 @@ body {
     background-color: white;
     border: 3px solid black;
     max-width: 600px;
-    margin: 50x auto;
+    margin: 50px auto;
     padding: 30px;
 }
 
