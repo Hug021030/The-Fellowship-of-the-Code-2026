@@ -41,7 +41,8 @@ body {
   max-height: 120px;
   width: auto;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  overflow: hidden;
 }
 
 .feature-title h1 {
