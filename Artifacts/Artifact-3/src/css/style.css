@@ -30,7 +30,7 @@ body {
     font-weight: bold;
 }
 
-.hobbit-list ul {
+.hobbit-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -79,7 +79,7 @@ body {
 }
 
 .app-header img {
-    width: auto;
+    width: 80px;
     height: auto;
     max-height: 120px;
     max-width: 120px;
