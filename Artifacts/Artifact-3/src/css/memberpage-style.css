@@ -41,8 +41,7 @@ body {
   max-height: 120px;
   width: auto;
   display: block;
-  object-fit: contain;
-  overflow: hidden;
+  object-fit: cover;
 }
 
 .feature-title h1 {
@@ -194,6 +193,13 @@ body {
   background: #eee;
   cursor: pointer;
   transition: 0.2s;
+  font-family: Georgia, sans-serif;
+  font-variant: small-caps;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  color: #b8860b;
+  text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000
 }
 
 .navigation-bar button:hover {
