@@ -18,7 +18,7 @@ Thus, this capability serves as a guiding light in the early days of the quest. 
 ---
 
 ## Static Interface Implementation
-insert link to src
+![Index.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/index.html)
 
 text
 
