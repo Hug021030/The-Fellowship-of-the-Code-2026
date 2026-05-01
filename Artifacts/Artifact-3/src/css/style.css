@@ -70,13 +70,15 @@ body {
 .hobbit-list li a span {
     display: inline-block;
     transform: skewX(20deg);
-    color: black;
     text-transform: uppercase;
     font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 0.5px;
+    color: #b8860b;
 }
 
 .app-card {
-    background-color: white;
+    background: #4a3d33;
     border: 3px solid black;
     max-width: 600px;
     margin: 50px auto;
