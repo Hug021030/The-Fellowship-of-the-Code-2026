@@ -18,7 +18,20 @@ Thus, this capability serves as a guiding light in the early days of the quest. 
 ---
 
 ## Static Interface Implementation
-![Index.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/index.html)
+
+#### HTML Pages
+- [index.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/index.html)
+- [hobbit-jusuf.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/hobbit-jusuf.html)
+- [hobbit-artur.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/hobbit-artur.html)
+- [hobbit-georg.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/hobbit-georg.html)
+- [hobbit-alex.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/hobbit-alex.html)
+- [hobbit-gabriel.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/hobbit-gabriel.html)
+
+#### CSS Style Sheets
+- [index-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/css/index-style.css)
+- [memberpage-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-3/src/css/memberpage-style.css)
+
+  
 
 text
 
