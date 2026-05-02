@@ -29,6 +29,7 @@ body {
 /* SHARED TEXT STYLES */
 .feature-title h1,
 .healthbar,
+.hp-percent-text,
 .item-title,
 .item-count {
   font-weight: bold;
