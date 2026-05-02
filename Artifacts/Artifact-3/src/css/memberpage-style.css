@@ -179,9 +179,8 @@ body {
 /* NAVIGATION */
 .navigation-bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 15px;             
-  width: 100%;
 }
 .navigation-bar button {
   flex: 1;
