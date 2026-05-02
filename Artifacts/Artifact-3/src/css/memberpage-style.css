@@ -30,8 +30,7 @@ body {
 .feature-title h1,
 .healthbar,
 .item-title,
-.item-count,
-.navigation-bar button {
+.item-count {
   font-weight: bold;
   font-variant: small-caps;
   letter-spacing: 0.5px;
@@ -178,7 +177,12 @@ body {
 }
 
 /* NAVIGATION */
-
+.navigation-bar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;             
+  width: 100%;
+}
 .navigation-bar button {
   flex: 1;
   padding: 10px;
@@ -187,6 +191,10 @@ body {
   border-radius: 8px;
   cursor: pointer;
   font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+  color: #b8860b;
   transition: 0.3s ease;
 }
 
@@ -200,4 +208,5 @@ footer {
   text-align: center;
   font-size: 10px;
   font-style: italic;
+  color: #000000;
 }
