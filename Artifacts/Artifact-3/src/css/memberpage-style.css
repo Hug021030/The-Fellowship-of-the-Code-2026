@@ -7,21 +7,21 @@
 
 /* BODY */
 body {
-  font-family: Georgia, sans-serif;
-  background: #1a1612;
   display: flex;
   justify-content: center;
   padding: 20px;
+  background: #1a1612;
+  font-family: Georgia, sans-serif;
 }
 
 /* MAIN CONTAINER */
 .inventory {
-  width: 100%;
+  width: 100%; /* Breite immer zuerst */
   max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
   background: #4a3d33;
   border: 3px solid #261e18;
-  padding: 15px;
-  margin: 0 auto;
   border-radius: 15px;
 }
 
@@ -35,9 +35,9 @@ body {
 }
 
 .feature-title img {
+  width: auto; /* Breite zuerst */
   height: 100%;
   max-height: 120px;
-  width: auto;
   display: block;
   object-fit: cover;
 }
@@ -46,28 +46,27 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  color: #b8860b;
+  font-family: Georgia, sans-serif;
   font-size: 55px;
   font-weight: bold;
-  text-align: center;
-  font-family: Georgia, sans-serif;
   font-variant: small-caps;
   letter-spacing: 0.5px;
-  color: #b8860b;
+  text-align: center;
 }
 
 /* MEMBER INFO */
 .member-info {
-  border: 2px solid #261e18;
-  padding: 15px;
   margin-bottom: 20px;
-  border-radius: 12px;
+  padding: 15px;
   background-color: #55483d;
-  
+  border: 2px solid #261e18;
+  border-radius: 12px;
 }
 
 .member-name {
-  text-align: left;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 /* HEALTHBAR */
@@ -76,12 +75,12 @@ body {
   align-items: center;
   gap: 15px;      
   width: 100%;
-  font-family:  Comic Sans MS, sans-serif;
-  font-variant: small-caps;
-  font-size: 25px;
-  letter-spacing: 0.5px;
   color: #b8860b;
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 25px;
   font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
 }
 
 .healthbar-container {
@@ -104,13 +103,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  color: #ffffff;
   font-family: Georgia, sans-serif;
   font-size: 15px;
-  color: #ffffff;
   text-shadow: 1px 1px 2px #000;
-  opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none;
 }
 
 .healthbar-container:hover .hp-percent-text {
@@ -123,29 +122,28 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
   width: 100%;
-  box-sizing: border-box;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 /* ITEM CARD */
 .item {
-  border: 2px solid #000;
-  background: #f9f9f9;
   position: relative;
-  transition: 0.2s;
-  border-radius: 10px;
-  overflow: hidden;
   display: flex;
-  aspect-ratio: 1/1;
   align-items: center;
   justify-content: center;
+  aspect-ratio: 1/1;
+  background: #f9f9f9;
+  border: 2px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-/* HOVER EFFECT */
 .item:hover {
   background: #e0e0e0;
   transform: scale(1.03);
-  cursor: pointer;
 }
 
 /* ITEM TITLE */
@@ -156,26 +154,26 @@ body {
   transform: translateX(-50%);
   z-index: 10;
   width: 90%;
-  text-align: center;
-  font-family: Georgia, sans-serif;
-  font-variant: small-caps;
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  font-weight: bold;
   color: #b8860b;
-  text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000
+  font-family: Georgia, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000;
 }
 
 /* IMAGE BOX */
 .item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 /* ITEM COUNT */
@@ -184,13 +182,13 @@ body {
   bottom: 8px;
   right: 8px;
   z-index: 10;
-  font-family: Georgia, sans-serif;
-  font-variant: small-caps;
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  font-weight: bold;
   color: #b8860b;
-  text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000
+  font-family: Georgia, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000;
 }
 
 /* NAVIGATION */
@@ -203,17 +201,17 @@ body {
 .navigation-bar button {
   flex: 1;
   padding: 10px;
+  background: #5f5145;
+  color: #b8860b;
   border: 2px solid #000;
   border-radius: 8px;
-  background: #5f5145;
   cursor: pointer;
-  transition: 0.3s ease;
   font-family: Georgia, sans-serif;
-  font-variant: small-caps;
   font-size: 20px;
-  letter-spacing: 0.5px;
   font-weight: bold;
-  color: #b8860b;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
 }
 
 .navigation-bar button:hover {
