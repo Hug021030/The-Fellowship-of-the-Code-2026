@@ -33,7 +33,6 @@ Thus, this capability serves as a guiding light in the early days of the quest. 
 
   
 
-text
 
 ---
 
