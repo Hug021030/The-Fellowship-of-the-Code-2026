@@ -40,29 +40,28 @@ Thus, this capability serves as a guiding light in the early days of the quest. 
 
 **How does this interface support the intent and value defined in Assignment 1?**
 
-Das Interface der „Memberpage“ geht auf Intent und Value aus Assignment 1 ein, indem es Members hilft, durch eine visuelle Aufbereitung und eine klare Struktur stets ein geteiltes Verständnis über ihren Status und ihre Ressourcen zu behalten. 
-Sowohl die eigenen als auch die Ressourcen, die Ressourcenanzahl und der Gesundheitsstatus der anderen Mitglieder können durch das Interface des „HobViewers“ eingesehen werden. Somit wird der Value aus Assignment 1 unterstützt, indem sichergestellt wird, dass der Gruppe nie wieder das Essen für ein zweites Frühstück ausgeht, während gleichzeitig die Aufmerksamkeit aller Mitglieder für kritische Zustände – wie zum Beispiel Vergiftungen durch eine Morgul-Klinge – verbessert wird.
+The interface of the "Memberpage" addresses the intent and value from Assignment 1 by helping members maintain a shared understanding of their status and resources at all times through visual preparation and a clear structure. Both one's own resources and the resource count and health status of other members can be viewed through the "HobViewer" interface. Thus, the value from Assignment 1 is supported by ensuring that the group never runs out of food for a second breakfast again, while simultaneously improving the attention of all members to critical conditions—such as poisoning by a Morgul blade.
 
 **How does it reflect the wireframe from Assignment 2?**
 
-Die Struktur und Navigation der Wireframes aus Assignment 2 wurden exakt übernommen. 
-* Vertikale Liste „Overview Hobbit“-Screen ermöglicht schnelle Auswahl der Charaktere durch große Touch-Targets
-* Informationshierarchie der Detailansicht in Memberspage wurde beibehalten
-    * HP-Balken oben platziert
-    * 16-Slot-Grid für Items und Ressourcen
-*Navigationselemente wie: „Previous“-, „Next“- und „Return“-Buttons wurden eins zu eins übernommen.
+The structure and navigation of the wireframes from Assignment 2 were adopted exactly.
+* The vertical list on the "Overview Hobbit" screen allows for quick character selection through large touch targets.
+* The information hierarchy of the detail view in the Memberpage was retained.
+    * HP bars are placed at the top.
+    * A 16-slot grid for items and resources.
+* Navigation elements such as "Previous", "Next", and "Return" buttons were adopted one-to-one.
 
 **What did you deliberately not implement yet?**
 
-Der Plan ist, KI-generierte Bilder von uns im Hobbit-Stil auf der „Overview Hobbit“-Seite einzufügen. Da wir jedoch aus Datenschutzgründen unsere eigenen Gesichter nicht für das KI-Training verwenden möchten, haben wir diesen Schritt vorerst ausgelassen. Wir sind uns aktuell noch unsicher, ob wir diesen Weg wählen oder eine andere Lösung für die Portraits finden wollen.
+The plan is to include AI-generated images of ourselves in Hobbit style on the "Overview Hobbit" page. However, since we do not want to use our own faces for AI training due to data privacy reasons, we have skipped this step for now. We are currently still unsure whether we want to choose this path or find another solution for the portraits.
 
 **What assumptions or constraints shaped your decisions?**
 
-* Es wurde angenommen, dass Nutzer schnell zwischen den Charakteren wechseln müssen, weshalb „Previous“ und „Next“ Buttons eingebaut wurden, um den Umweg über das Hauptmenü zu vermeiden.
+* It was assumed that users need to switch quickly between characters, which is why "Previous" and "Next" buttons were integrated to avoid the detour via the main menu.
 
-* Es wird vorausgesetzt, dass die Gefährten bereits wissen, wie sie das Interface bedienen müssen.
+* It is assumed that the companions already know how to operate the interface.
 
-* Da die Privatsphäre der Teammitglieder Priorität hat, wurde auf die Nutzung persönlicher Daten für KI-Generierungen verzichtet, was die visuelle Platzhalter-Strategie für die Porträts bestimmt hat.
+* Since the privacy of the team members is a priority, the use of personal data for AI generation was waived, which determined the visual placeholder strategy for the portraits.
 
-* Um die Entscheidungsfindung für die Gefährten in Stresssituationen zu erleichtern, wurde bewusst auf komplexe Management- oder Sortierfunktionen im Inventar verzichtet.
+* To facilitate decision-making for the companions in stressful situations, complex management or sorting functions in the inventory were deliberately omitted.
 
