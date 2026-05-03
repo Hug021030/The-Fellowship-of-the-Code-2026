@@ -84,7 +84,7 @@ body {
 .hobbit-list img {
     width: 80px;
     height: 80px;
-    border-radius: 10px;
+    border-radius: 50%;
     border: 2px solid #261e18;
     object-fit: cover;
 }
