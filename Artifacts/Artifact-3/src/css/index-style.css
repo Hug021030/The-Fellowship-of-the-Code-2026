@@ -18,9 +18,9 @@ body {
 /* MAIN-CONTAINER */
 .app-card {
     width: 100%;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 15px;
     background: #4a3d33;
     border: 3px solid #261e18;
     border-radius: 15px;
@@ -29,11 +29,10 @@ body {
 
 /* HEADER */
 .app-header {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 25px;
-    gap: 20px;
 }
 
 .app-header img {
@@ -46,20 +45,24 @@ body {
 }
 
 .app-title {
-    font-size: 45px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 55px;
     font-weight: bold;
     font-variant: small-caps;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-align: center;
     flex-grow: 1;
+    white-space: nowrap;
 }
 
 .header2 {
     text-align: center;
     color: #b8860b;
     font-family: Georgia, serif;
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
     font-variant: small-caps;
 }
 
@@ -67,20 +70,22 @@ body {
 .hobbit-list {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .hobbit-list li {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
+    gap: 20px;
 }
 
 .hobbit-list img {
-    width: 60px;
-    height: 60px;
-    border-radius: 8px;
-    border: 1px solid #261e18;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid #261e18;
     object-fit: cover;
 }
 
@@ -90,24 +95,25 @@ body {
     border: 2px solid #000;
     color: #b8860b;
     text-decoration: none;
-    padding: 12px;
+    padding: 15px 40px;
     flex: 1;
     text-align: center;
-    transform: skewX(-15deg); /* Etwas weniger extrem */
+    transform: skewX(-20deg);
     display: block;
     transition: 0.3s ease;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .hobbit-list li a:hover {
-    background: #7a695a; /* Helleres Braun beim Hover */
-    transform: skewX(-15deg) scale(1.02);
-    box-shadow: 0 0 10px b8860b4D;
+    background: #261e18;
+    color: #ffffff;
+    transform: skewX(-20deg) scale(1.02);
 }
 
 .hobbit-list li a span {
     display: inline-block;
-    transform: skewX(15deg);
+    transform: skewX(20deg);
     text-transform: uppercase;
     font-variant: small-caps;
 }
@@ -118,6 +124,6 @@ footer {
     text-align: center;
     font-size: 12px;
     font-style: italic;
-    color: #261e18;
-    position: relative;
+    color: #000000;
+    position: static;
 }
