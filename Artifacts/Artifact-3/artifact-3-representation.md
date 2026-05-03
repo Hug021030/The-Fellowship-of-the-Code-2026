@@ -38,11 +38,7 @@ Thus, this capability serves as a guiding light in the early days of the quest. 
 
 ## Design Rationale
 
-**How does this interface support the intent and value defined in Assignment 1?**
-
 The interface of the "Memberpage" addresses the intent and value from Assignment 1 by helping members maintain a shared understanding of their status and resources at all times through visual preparation and a clear structure. Both one's own resources and the resource count and health status of other members can be viewed through the "HobViewer" interface. Thus, the value from Assignment 1 is supported by ensuring that the group never runs out of food for a second breakfast again, while simultaneously improving the attention of all members to critical conditions—such as poisoning by a Morgul blade.
-
-**How does it reflect the wireframe from Assignment 2?**
 
 The structure and navigation of the wireframes from Assignment 2 were adopted exactly.
 * The vertical list on the "Overview Hobbit" screen allows for quick character selection through large touch targets.
@@ -51,11 +47,7 @@ The structure and navigation of the wireframes from Assignment 2 were adopted ex
     * A 16-slot grid for items and resources.
 * Navigation elements such as "Previous", "Next", and "Return" buttons were adopted one-to-one.
 
-**What did you deliberately not implement yet?**
-
 The plan is to include AI-generated images of ourselves in Hobbit style on the "Overview Hobbit" page. However, since we do not want to use our own faces for AI training due to data privacy reasons, we have skipped this step for now. We are currently still unsure whether we want to choose this path or find another solution for the portraits.
-
-**What assumptions or constraints shaped your decisions?**
 
 * It was assumed that users need to switch quickly between characters, which is why "Previous" and "Next" buttons were integrated to avoid the detour via the main menu.
 
