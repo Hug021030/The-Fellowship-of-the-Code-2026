@@ -16,9 +16,9 @@
 ## Summary
 
 Before running out of supplies, we finally arrived in Bree to restock them. While there, we've visited the well-travelled inn - The Prancing Pony - to have a good 1420er Ale or two. As we await to meet up with 
-a ranger called `Strider`, we took our time to make the most out of our conceptional design to turn it into visible progress. We took out quill and parchment and wrote down our HTML and CSS code based on our flowchart and wireframe for the `Hobviewer` that we've designed on our last long rest.
+a ranger called *Strider*, we took our time to make the most out of our conceptional design to turn it into visible progress. We took out quill and parchment and wrote down our HTML and CSS code based on our flowchart and wireframe for the *Hobviewer* that we've designed on our last long rest.
 
-Since we already settled on the HobViewer being a feature to both monitor and assess each other's condition and resources, `all` there was left for us to do is makting it visible by doing the work. As a result, we have created both an index of the HobViewer to access members individually and their respective memberpage, where not only the current health points are displayed, but also which and how much ressources and utility items each member has, which helps not only the individual member to monitor themselves, but others aswell - so that we never run out of food for second breakfast again!
+Since we already settled on the HobViewer being a feature to both monitor and assess each other's condition and resources, *all* there was left for us to do is makting it visible by doing the work. As a result, we have created both an index of the HobViewer to access members individually and their respective memberpage, where not only the current health points are displayed, but also which and how much ressources and utility items each member has, which helps not only the individual member to monitor themselves, but others aswell - so that we never run out of food for second breakfast again!
 
 Everything done so far since last chapter's entry has been passed down in this chapter of the Redbook, where we documented artifacts such as our HTML codes and CSS stylesheets for both index- and memberpage.
 Though seperated in body with our (AI-)guide, Gandalf the Grey, we were able to connect in spirit to request guidance on our endeavors to make conceptional designs into visible craft.
@@ -76,6 +76,8 @@ Questions
 Insights, challenges, reflections
 
 - Alex:
+
+What really kept me going was the fun I had while *coding*. I found HTML to be quite easy to work with once you got the hang of the rules. It was do-able without AI assistance to say the least. When it came to CSS it was the other way around. There, I was in dire need of AI assistance, not because I wasn't able to apply the standard CSS we've learned throughout the last weeks, but because we wanted to go all out. CSS is like the ocean with unlimited possibilities, depending what you envision to do. And so, I fell into a rabbit hole. All in all I'm happy with the "finished" product and even went out of the way to make redundancy checks and applying the "Outside-in" ordering principle at the end to *learn it the right way from the getgo*.
 
 - Georg:
 
