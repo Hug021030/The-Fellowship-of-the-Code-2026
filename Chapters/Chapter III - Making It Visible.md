@@ -66,7 +66,7 @@ AI helped me do so, sometimes though adjusting small bits of code I did not want
 
 - Georg:
 
-I used AI mainly to help me make the Website look nicer and to support me whenever I ran into issues I could not immediately figure out on my own. A big part of my workflow was jumping into the browser's DevTools (F12) to poke around the elements and figure out why things were not behaving the way I wanted. I would usually try to narrow it down in DevTools first and then bring the problem to the AI to get a second opinion or a possible fix. It turned out to be really effective for me, because DevTools showed me *what* was happening and the AI often helped me understand *why*. It was especially useful for those small, annoying bugs you can stare at for ages without spotting and for cleaning up code that technically worked but was not very elegant.
+I used AI mainly to help me make the website look nicer and to support me whenever I ran into issues I could not immediately figure out on my own. A big part of my workflow was jumping into the browser's DevTools (F12) to poke around the elements and figure out why things were not behaving the way I wanted. I would usually try to narrow it down in DevTools first and then bring the problem to the AI to get a second opinion or a possible fix. It turned out to be really effective for me, because DevTools showed me *what* was happening and the AI often helped me understand *why*. It was especially useful for those small, annoying bugs you can stare at for ages without spotting and for cleaning up code that technically worked but was not very elegant.
 
 - Gabriel:
 
