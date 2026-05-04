@@ -92,5 +92,6 @@ What really kept me going was the fun I had while *coding*. I found HTML to be q
 ---
 
 ### Version Control
+- 0.3: added AI assistance & Lessons Learned
 - 0.2: added first content to summary & artifact 
 - 0.1: copy/past of chapter II for structure
