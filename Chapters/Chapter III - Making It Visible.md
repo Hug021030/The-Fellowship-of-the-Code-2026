@@ -44,6 +44,7 @@ With that in mind, once entering the HobViewer you are greeted by it together wi
 Once in the memberpage, you are greeted again by the logo, which is also a shortcut to the index. Next to it the member's name is represented to clarify which memberpage the user is currently on. Below, users find the current healthpoint bar with further insights once hovering over. Further below users are greeted by the inventory, where they see
 - which items are in the backback of the member
 - how much of regarded item are in the backback of the member
+
 supported by an item name and a visualisazion of the items for easier grasp of the status quo. At the end of the memberpage, we implemented the navigation bar to switch between members in a given logic aswell as the option to return to the mainscreen.
 
 Alas, we have accomplished the static capability of our first feature, The HobViewer, within our TFC: **Monitor and assess available resources**
