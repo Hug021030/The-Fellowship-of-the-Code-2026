@@ -70,6 +70,8 @@ I used AI mainly to help me make the website look nicer and to support me whenev
 
 - Gabriel:
 
+I used AI only for translation of the Design Rationale from German to English. When coding, i tried the classic try and error attempt and managed to do quite well, even though my nerves are blanc now.
+
 - Jusuf:
 
 I expected Ai to help me mainly with debugging and structuring the code, especially since I had no prior experience with HTML and CSS. I thought it would give me clear solutions whenever something didn´t work. In reality, AI was helpful in identifying errors and suggesting possible fixes, but it didnt´t always solve the problem directly. In some cases the issue turned out to be something small that I had to find myself, which actually helped me better understand the underlying logic. AI was most useful when I already had a rough idea of what I wanted to achieve. In those situations, it could guide me in the right direction or improve my code. However, when I didn´t fully understand the problem, the suggestion were harder to apply and sometimes led to confusion. 
@@ -91,6 +93,8 @@ What really kept me going was the fun I had while *coding*. I found HTML to be q
 Probably the most important lesson and also the most boring one: name your files properly and reference them correctly. It sounds trivial but one wrong path or typo in a link or src attribute and suddenly nothing loads, the styling is gone and you are left wondering what just happened. The HTML side itself was actually pretty manageable once I got the hang of the basic structure. The real work cleary lives in the CSS file. That is where I spent  most of my time. CSS honestly surprised me in how powerful it is - you can build almost anything visually if you know your way around it and the more I played with it, the more I realized how much depth there actually is. The downside of that flexibility is that debugging can get really frustrating/annoying. When something looks off, it is not always obvious *why* - it could be specificity, inheritance, a stray margin somewhere or just a missing semicolon and those rare moments where even the AI could not figure it out what was going on, I had no choice but to go through the code line by line myself. Annoying in the moment but probably where I picked up the most actually understanding of how everything fits together.
 
 - Gabriel:
+
+Honestley i do not really have lessons learned for this excercise, because I mostly did text writing - html and css programming was part of my private projects.
 
 - Jusuf:
 
