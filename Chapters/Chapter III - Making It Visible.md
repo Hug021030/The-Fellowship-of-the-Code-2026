@@ -72,6 +72,8 @@ I used AI mainly to help me make the website look nicer and to support me whenev
 
 - Jusuf:
 
+I expected Ai to help me mainly with debugging and structuring the code, especially since I had no prior experience with HTML and CSS. I thought it would give me clear solutions whenever something didn´t work. In reality, AI was helpful in identifying errors and suggesting possible fixes, but it didnt´t always solve the problem directly. In some cases the issue turned out to be something small that I had to find myself, which actually helped me better understand the underlying logic. AI was most useful when I already had a rough idea of what I wanted to achieve. In those situations, it could guide me in the right direction or improve my code. However, when I didn´t fully understand the problem, the suggestion were harder to apply and sometimes led to confusion. 
+
 - Artur
 
 ---
@@ -91,6 +93,8 @@ Probably the most important lesson and also the most boring one: name your files
 - Gabriel:
 
 - Jusuf:
+
+For me, the biggest learning was understanding how structure and design are closely connected. Before this, I didn´t realize how much planning is required before actually starting to code. I also learned that keeping things simple is very important. Trying to include too many features at once makes the system harder to manage and increases the likelihood of errors. Another challenge was debugging. Many problems were caused by small mistakes, which made it necessary to carefully go through the code step by step. Overall, I learned that patience and structured thinking are essential when working with new technologies, especially when starting from scratch.
 
 - Artur:
 ---
