@@ -61,6 +61,9 @@ What would I do differently next time?
 
 - Alex:
 
+I expected AI to help me find proper colors and fonts, help me debug lines and unwanted designs (i.e. alignment of text), help me improve my the stylesheet to upgrade visual prowess.
+AI helped me do so, sometimes though adjusting small bits of code I did not want to change (i.e. changing padding from 20px to 15px) or suggesting me new variants to the original design choice, which were not needed as we already settled on our design choice within the wireframe. Next time, I would take the time to explicity call out what I dont want to be changed to avoid time wasters.
+
 - Georg:
 
 - Gabriel:
