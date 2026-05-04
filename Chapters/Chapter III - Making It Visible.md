@@ -66,6 +66,8 @@ AI helped me do so, sometimes though adjusting small bits of code I did not want
 
 - Georg:
 
+I used AI mainly to help me make the Website look nicer and to support me whenever I ran into issues I could not immediately figure out on my own. A big part of my workflow was jumping into the browser's DevTools (F12) to poke around the elements and figure out why things were not behaving the way I wanted. I would usually try to narrow it down in DevTools first and then bring the problem to the AI to get a second opinion or a possible fix. It turned out to be really effective for me, because DevTools showed me *what* was happening and the AI often helped me understand *why*. It was especially useful for those small, annoying bugs you can stare at for ages without spotting and for cleaning up code that technically worked but was not very elegant.
+
 - Gabriel:
 
 - Jusuf:
@@ -83,6 +85,8 @@ Insights, challenges, reflections
 What really kept me going was the fun I had while *coding*. I found HTML to be quite easy to work with once you got the hang of the rules. It was do-able without AI assistance to say the least. When it came to CSS it was the other way around. There, I was in dire need of AI assistance, not because I wasn't able to apply the standard CSS we've learned throughout the last weeks, but because we wanted to go all out. CSS is like the ocean with unlimited possibilities, depending what you envision to do. And so, I fell into a rabbit hole. All in all I'm happy with the "finished" product and even went out of the way to make redundancy checks and applying the "Outside-in" ordering principle at the end to *learn it the right way from the getgo*.
 
 - Georg:
+
+Probably the most important lession and also the most boring one: name your files properly and reference them correctly. It sound trivial but one wrong path or typo in a <link> or src attribute and suddenly nothing loads, the stlying is gone and you are left wondering what just happened. The HTML side itself was actually pretty manageable once I got the hang of the basic structure. The real work cleary lives in the CSS files. That is where I spent the most of my time. CSS honestly surprised me in how powerful it is - you can build almost anything visually if you know your way around it and the more I played with it, the more I realized how much depth there actually is. The downside of that flexibility is that debugging can get really frustrating/annoying. When something looks off, it is not always obvious *why* - it could be specificity, inheritance, a stray margin somewhere or just a missing semicolon and those rare moments where even the AI could not figure it out what was going on, I had no choice but to go through the code line by line myself. Annoying in the moment but probably where I picked up the most actualy understanding of how everything fits together.
 
 - Gabriel:
 
