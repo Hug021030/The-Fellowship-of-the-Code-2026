@@ -1,4 +1,4 @@
-# Artifact III - Representation
+# Artifact IV - Logic and State
 
 ## Table of Contents
 
@@ -22,8 +22,12 @@ To prove our worth as capable members of the Fellowship, we present our HobViewe
 ## Adding Logic and State
 
 #### HTML Pages
-insert links here
-
+- [index.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/html/index.html)
+- [hobbit-jusuf.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/html/hobbit-jusuf.html)
+- [hobbit-artur.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/html/hobbit-artur.html)
+- [hobbit-georg.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/html/hobbit-georg.html)
+- [hobbit-alex.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/html/hobbit-alex.html)
+- [hobbit-gabriel.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/html/hobbit-gabriel.html)
 #### CSS Files
 - [index-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/index-style.css)
 - [memberpage-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/memberpage-style.css)
