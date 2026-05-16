@@ -5,7 +5,7 @@ The code displays the Hobbit Rations Tracker with a status line ("Rations availa
 
 ## Identified Issues (with explanations)
 
-
+In line 16, the variable “rations” is initialized as a string due to the quotation marks. In line 29, the function attempts to add “value” to it. However, since both “rations” and the input “value” are treated as text, JavaScript chains them together instead of calculating the sum. This is why the new value is just appended to the '10'.
 
 ## Why the Issues matter
 
