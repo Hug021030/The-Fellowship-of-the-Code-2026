@@ -25,8 +25,8 @@ To prove our worth as capable members of the Fellowship, we present our HobViewe
 insert links here
 
 #### CSS Files
-insert links here
-
+- [index-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/index-style.css)
+- [memberpage-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/memberpage-style.css)
 #### JS File
 insert link here
 
