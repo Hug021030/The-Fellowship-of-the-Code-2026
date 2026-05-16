@@ -1,19 +1,19 @@
-#Short description of what the code is supposed to do#
+# Short description of what the code is supposed to do
 
 
 
-##Identified issues (with explanations)##
+## Identified issues (with explanations)
 
 
 
-##Why the issues matter##
+## Why the issues matter##
 
 
 
-##Description of fixes (optional)##
+## Description of fixes (optional)##
 
 
 
-##AI reflection##
+## AI reflection##
 
 
