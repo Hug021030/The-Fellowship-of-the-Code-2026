@@ -202,7 +202,7 @@ body {
   font-variant: small-caps;
   letter-spacing: 0.5px;
   color: #b8860b;
-  transition: 0.3s ease;
+  transition: 0.1s ease;
 }
 
 .navigation-bar button:hover {
