@@ -13,7 +13,7 @@ In line 16, the variable “rations” is initialized as a string due to the quo
 
 
 
-## Description of Fixes (optional)
+## Description of Fixes
 
 
 ## AI reflection
