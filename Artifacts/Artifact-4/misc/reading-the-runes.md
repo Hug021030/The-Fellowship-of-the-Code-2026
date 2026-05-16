@@ -5,6 +5,8 @@ The code displays the Hobbit Rations Tracker with a status line ("Rations availa
 
 ## Identified Issues (with explanations)
 
+The code currently mixes HTML and JavaScript within the same file. To follow best practices and ensure a proper separation of concerns, these two components should be isolated into distinct files. Additionally, the variable and function naming could be improved for better readability and clarity—for example, by renaming the functions to explicitly reflect their actions, such as "addRations" and "eatRations".
+
 In line 16, the variable “rations” is initialized as a string due to the quotation marks. In line 29, the function attempts to add “value” to it. However, since both “rations” and the input “value” are treated as text, JavaScript chains them together instead of calculating the sum. This is why the new value is just appended to the '10'.
 
 ## Why the Issues matter
