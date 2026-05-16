@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [System Capabilitiy](#system-capability)
-- [Adding Logic & State](#adding-logic-and-state)
+- [Adding Logic and State](#adding-logic-and-state)
 - [Design Rationale](#design-rationale)
 
 ---
@@ -21,7 +21,7 @@ insert text here
   
 ---
 
-## Adding Logic & State
+## Adding Logic and State
 
 insert text here
 
@@ -39,14 +39,15 @@ insert text here
   The logic matches the intent and flow defined earlier
   State changes are understandable and explainable)
 
-####HTML Pages
+### HTML Pages
 insert links here
 
-####CSS Files
+### CSS Files
 insert links here
 
-####JS File
+### JS File
 insert link here
+
 ---
 
 ## Design Rationale
