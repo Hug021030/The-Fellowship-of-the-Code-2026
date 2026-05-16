@@ -29,10 +29,10 @@ To prove our worth as capable members of the Fellowship, we present our HobViewe
 - [hobbit-alex.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/html/hobbit-alex.html)
 - [hobbit-gabriel.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/html/hobbit-gabriel.html)
 #### CSS Files
-- [index-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/index-style.css)
-- [memberpage-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/memberpage-style.css)
+- [index-style.css](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/index-style.css)
+- [memberpage-style.css](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/memberpage-style.css)
 #### JS File
-insert link here
+- [script.js](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/js/script.js)
 
 ---
 
