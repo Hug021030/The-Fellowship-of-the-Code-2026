@@ -5,16 +5,21 @@ The code displays the Hobbit Rations Tracker with a status line ("Rations availa
 
 ## Identified Issues (with explanations)
 
-The code currently mixes HTML and JavaScript within the same file. To follow best practices and ensure a proper separation of concerns, these two components should be isolated into distinct files. Additionally, the variable and function naming could be improved for better readability and clarity—for example, by renaming the functions to explicitly reflect their actions, such as "addRations" and "eatRations".
+1. The code currently mixes HTML and JavaScript within the same file. To follow best practices and ensure a proper separation of concerns, these two components should be isolated into distinct files. Additionally, the variable and function naming could be improved for better readability and clarity—for example, by renaming the functions to explicitly reflect their actions, such as "addRations" and "eatRations".
 
-In line 16, the variable “rations” is initialized as a string due to the quotation marks. In line 29, the function attempts to add “value” to it. However, since both “rations” and the input “value” are treated as text, JavaScript chains them together instead of calculating the sum. This is why the new value is just appended to the '10'.
+2. In line 16, the variable “rations” is initialized as a string due to the quotation marks. In line 29, the function attempts to add “value” to it. However, since both “rations” and the input “value” are treated as text, JavaScript chains them together instead of calculating the sum. This is why the new value is just appended to the '10'.
 
 ## Why the Issues matter
 
+1. Mixing HTML and JavaScript in a single file might seem convenient for small examples but it quickly becomes a problem as a project grows. Without a clear separation of concerns, the structure of the page and its behaviour get tangled together, which makes the code harder to read, harder to debug and harder to reuse.
 
+2. The string-vs-number issue is more dangerous because the program does not crash - it silently produces wrong results. Clicking "Add Rations" with an input of 5 turns the displayed value from 10 to 105 instead of 15. 
 
 ## Description of Fixes
 
+1. The HTML and JavaScript should be split into two separate files. The script is moved into a new file for example rations.js and linked from the HTML.
+
+2. The variable should be initialized without quotation marks: let rations = 10; instead of let rations = "10";
 
 ## AI reflection
 
