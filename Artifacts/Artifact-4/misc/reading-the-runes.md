@@ -29,4 +29,4 @@ The code displays the Hobbit Rations Tracker with a status line ("Rations availa
 
 ## AI reflection
 
-
+I gave the AI the whole code, but didn't ask it to look for issues. Instead, I wrote my own suggestions to the AI about what an issue could be and why. The AI then helped to turn my broken English into correct sentences and added tips on what impact these issues could have. However, the AI didn't understand UX problems on its own, such as getting NaN results when you first enter text and then try to eat rations, for example.
