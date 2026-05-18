@@ -9,17 +9,23 @@ The code displays the Hobbit Rations Tracker with a status line ("Rations availa
 
 2. In line 16, the variable “rations” is initialized as a string due to the quotation marks. In line 29, the function attempts to add “value” to it. However, since both “rations” and the input “value” are treated as text, JavaScript chains them together instead of calculating the sum. This is why the new value is just appended to the '10'.
 
+3. Additionally, the "eat" button updates the screen in the wrong order. It calls updateStatus() before checking the rations and doing the math. Because of this, the screen shows the old amount when clicked, and the background data changes only afterward. Since the screen is never refreshed again after the subtraction, the display is always one step behind the real data.
+
 ## Why the Issues matter
 
 1. Mixing HTML and JavaScript in a single file might seem convenient for small examples but it quickly becomes a problem as a project grows. Without a clear separation of concerns, the structure of the page and its behaviour get tangled together, which makes the code harder to read, harder to debug and harder to reuse.
 
-2. The string-vs-number issue is more dangerous because the program does not crash - it silently produces wrong results. Clicking "Add Rations" with an input of 5 turns the displayed value from 10 to 105 instead of 15. 
+2. The string-vs-number issue is more dangerous because the program does not crash - it silently produces wrong results. Clicking "Add Rations" with an input of 5 turns the displayed value from 10 to 105 instead of 15.
+
+3. The incorrect logic order creates a confusing user experience. Users see outdated numbers on the screen after they click a button, which makes the app feel broken, unresponsive, or buggy, even if the data is correct in the background.
 
 ## Description of Fixes
 
 1. The HTML and JavaScript should be split into two separate files. The script is moved into a new file for example rations.js and linked from the HTML.
 
 2. The variable should be initialized without quotation marks: let rations = 10; instead of let rations = "10";
+
+3. Move the updateStatus() function call to the very end of both event listeners, after all calculations are completely finished. For the "eat" button, place updateStatus() inside the else block, right after the subtraction. This ensures the screen always displays the most accurate and updated data.
 
 ## AI reflection
 
