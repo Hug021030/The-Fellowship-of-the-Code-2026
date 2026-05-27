@@ -17,7 +17,7 @@ The code displays the Hobbit Rations Tracker with a status line ("Rations availa
 
 2. The string-vs-number issue is more dangerous because the program does not crash - it silently produces wrong results. Clicking "Add Rations" with an input of 5 turns the displayed value from 10 to 105 instead of 15. Bugs of this kind are particularly hard to catch because nothing in the interface signals that something went wrong: the screen updates, the button responds and the program appears to work as intended. The defect only becomes visible when someone notices that the numbers no longer make sense
 
-3. The incorrect logic order creates a confusing user experience. Users see outdated numbers on the screen after they click a button, which makes the app feel broken, unresponsive, or buggy, even if the data is correct in the background.
+3. The incorrect logic order creates a confusing user experience. In the eatbutton event listener the Updated Status should be carryed out after the the value for rations was updated. Users see outdated numbers on the screen after they click a button (whilst the actual value is something different), which makes the app feel broken, unresponsive, or buggy, even if the data is correct in the background. 
 
 ## Description of Fixes
 
@@ -26,7 +26,7 @@ The code displays the Hobbit Rations Tracker with a status line ("Rations availa
 2. The variable should be initialized without quotation marks: let rations = 10; instead of let rations = "10";
 This alone, however, is not sufficient, since the value retrieved from the input field is also a string by default — all values read from HTML input elements are returned as text, regardless of the field's type attribute. The input must therefore be explicitly converted to a number before being used in the addition, using either Number(value) or parseInt(value, 10).
 
-3. Move the updateStatus() function call to the very end of both event listeners, after all calculations are completely finished. For the "eat" button, place updateStatus() inside the else block, right after the subtraction. This ensures the screen always displays the most accurate and updated data.
+3. Move the updateStatus() function call to the very end of both event listeners, after all calculations and rewriting the values are completely finished. For the "eat" button, place updateStatus() inside the else block, right after the subtraction. This ensures the screen always displays the most accurate and updated data.
 
 ## AI reflection
 
