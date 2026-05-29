@@ -1,6 +1,29 @@
 
-// Random number generator
-function RandomNumber()
-{
-    document.getElementById("random_number").value = Math.floor(Math.random()*256);
+function useItem() {
+  alert("use works");
 }
+
+
+
+/*/var example;
+let itemsList =['1', '2'];
+
+window.onload=function(){
+
+    document.querySelector('#jsuseItem').addEventListener('click', function () {
+    example = 1;
+    console.log('it works');
+    alert('yay');
+});
+
+
+
+    document.getElementById('js-useItem').addEventListener('click', function () {
+        console.log('use works');
+        //alert('use works hurray');
+
+        
+    });
+
+
+}/*/

@@ -183,6 +183,30 @@ body {
   right: 8px;
 }
 
+.item-use {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  z-index: 10;
+  padding: 2px 7px;
+  background: #5f5145;
+  border: 1px solid #261e18;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Georgia, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #b8860b;
+  text-shadow: none;
+  transition: background 0.15s;
+}
+
+.item-use:hover {
+  background: #8a7060;
+}
+
+
 /* NAVIGATION */
 .navigation-bar {
   display: flex;
