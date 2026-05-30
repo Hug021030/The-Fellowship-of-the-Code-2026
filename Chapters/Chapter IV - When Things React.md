@@ -1,6 +1,6 @@
 # The Red Book of Westmarch - Chapter IV: When Things React
 
-*`"insert `*
+*`"And he that breaks a thing to find out what it is has left the path of wisdom - Gandalf the Grey"`*
 
 **Table of Contents**
 
@@ -14,7 +14,8 @@
 
 ## Summary
 
-insert text here
+As our group, joined by the ranger *Strider*, arrived in Rivendell to meet up with the Council of Elrond to further discuss the destiny of the one ring to rule them all, we have been excluded of this round.
+Sneaky Hobitses as we are - we found our way into it to hear the whole conversation, which escelated. We used the commotion to rush in, claiming to take the ring and destroy it at Mount Doom in Mordor. To prove that we have what it takes, we present the Council of Elrond The Fellowship Companion *(TFC)* and our first feature - *The HobViewer* - which represents one of many planned features for our application. This magical tool, even stronger than elvish magic, shall proof it's usefulness along the way, by providing oversight and allocation of resources and items. Astonished by *hobbit magic* we now officially join the Fellowship of the Code. Our mission is clear as day: Take the ring to Mordor and destroy the ring in Mount Doom, and while at it, develop more features to make our endeavour a success.
 
 ---
 
@@ -26,11 +27,11 @@ insert text here
 
 **Build:**
 
-insert text here
+In this build, we created our JavaScript to make things react. 
 
 **Focus:**
 
-insert text here
+The code is build to create interaction within the memberpage.html of each member, so interaction with items is possible. Focus lays on the consumption of items and change of resources through it. (i.e. item gets consumed, which provides healthpoints -> the count goes down, while the lifepoints of members go up)
 
 ---
 
