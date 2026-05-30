@@ -34,6 +34,21 @@ function useBandage(){
     }
 }
 
+let ales = 3;
+let blurred = 0;
+function useAle(){
+    if(ales > 0){
+        ales = ales - 1;
+        blurred += 0.8;
+        console.log(blurred);
+        document.body.style.filter = `blur(${blurred}px)`;
+        document.querySelector('#aleNR').textContent = ales + 'x';
+    }
+    else{
+        console.log('no more ale left :/');
+    }
+}
+
 //window.onload=function(){
     
     /*/
