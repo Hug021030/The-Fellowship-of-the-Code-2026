@@ -34,6 +34,26 @@ function useBandage(){
     }
 }
 
+let breadNR = 26;
+function eat(){
+    if(health > 98){
+        console.log('Health über 100');
+        alert('Cant use this item, already healthy enough')
+    }
+    else if(breadNR == 0){
+        console.log('no more bread');
+        alert('You dont have any bread left')
+    }
+    else {
+        health += 2;
+        breadNR = breadNR - 1;
+        //setzen healthbar
+        document.querySelector('#healtBarText').textContent = health + '%';
+        document.getElementById('healthBarWidth').style.width = health + '%';
+        document.querySelector('#breadNR').textContent = breadNR + 'x';
+    }
+}
+
 let ales = 3;
 let blurred = 0;
 function useAle(){
@@ -49,7 +69,7 @@ function useAle(){
     }
 }
 
-//window.onload=function(){
+window.onload=function(){
     
     /*/
     document.querySelector('#jsuseItem').addEventListener('click', function () {
@@ -64,4 +84,4 @@ function useAle(){
     });
     /*/
 
-//} 
+} 
