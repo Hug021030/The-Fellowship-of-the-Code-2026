@@ -28,6 +28,7 @@ To prove our worth as capable members of the Fellowship, we present our HobViewe
 - [hobbit-georg.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/hobbit-georg.html)
 - [hobbit-alex.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/hobbit-alex.html)
 - [hobbit-gabriel.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/hobbit-gabriel.html)
+- [memberpage.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/memberpage.html)
 #### CSS Files
 - [index-style.css](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/index-style.css)
 - [memberpage-style.css](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/css/memberpage-style.css)
