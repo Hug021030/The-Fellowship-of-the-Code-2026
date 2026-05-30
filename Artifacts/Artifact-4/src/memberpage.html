@@ -30,8 +30,8 @@
             <div class="healthbar">
               <span class="health-points">HP</span>
               <div class="healthbar-container">
-              <div class="healthbar-fill" style="width: 99%;"></div>
-              <span class="hp-percent-text">99%</span>
+              <div id="healthBarWidth" class="healthbar-fill" style="width: 70%;"></div>
+              <span id="healtBarText" class="hp-percent-text">70%</span>
               </div>
             </div>
           </section>
@@ -49,8 +49,8 @@
             <div class="item">
               <p class="item-title">Bandage</p>
               <img src="./images/bandage.png" alt="Bandage Icon">
-              <span class="item-count">7x</span>
-              <button class="item-use" type="button" onclick="useItem()">Use</button>
+              <span id="bandageNR" class="item-count">7x</span>
+              <button class="item-use" type="button" onclick="useBandage()">Use</button>
             </div>
  
             <div class="item">
