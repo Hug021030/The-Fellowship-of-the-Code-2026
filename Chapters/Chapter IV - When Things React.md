@@ -43,8 +43,6 @@ While it did lay us the groundstone, we had to adapt anyways, as it is restraine
 ---
 
 ## Lessons Learned
-Questions
-Insights, challenges, reflections
 
 Developing the JavaScript poses the real challenge. While HTML & CSS lay the framework, the JS makes things react. Here's where to *problem* lies. You have to write the code, which makes 25% of the work and 75% of debugging, as you have to potentially adapt and rewrite the HTML & CSS to how you want to make the interaction work. Makes it harder, if one part mainly wrote the HTML & CSS, the other the JS.
----
+
