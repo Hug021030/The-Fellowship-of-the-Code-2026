@@ -35,22 +35,9 @@ insert text here
 ---
 
 ## AI Assistance
-Questions:
-What did I expect?
-What actually happened?
-How did AI help or mislead me?
-What decision (changes) did I make consciously?
-What would I do differently next time?
 
-- Alex:
-
-- Georg:
-
-- Gabriel:
-
-- Jusuf:
-
-- Artur
+We exected AI to help us primarily with laying the groundstone of our code. Also, debugging for most of it.
+While it did lay us the groundstone, we had to adapt anyways, as it is restrained to fully grasp the intention together with how the code is already written, without trying to rewrite it, which can be misleading and a little bit frustrating - though some decisions and suggested changes had to be made to work properly.
 
 ---
 
@@ -58,13 +45,5 @@ What would I do differently next time?
 Questions
 Insights, challenges, reflections
 
-- Alex:
-
-- Georg:
-
-- Gabriel:
-
-- Jusuf:
-
-- Artur:
+Developing the JavaScript poses the real challenge. While HTML & CSS lay the framework, the JS makes things react. Here's where to *problem* lies. You have to write the code, which makes 25% of the work and 75% of debugging, as you have to potentially adapt and rewrite the HTML & CSS to how you want to make the interaction work. Makes it harder, if one part mainly wrote the HTML & CSS, the other the JS.
 ---
