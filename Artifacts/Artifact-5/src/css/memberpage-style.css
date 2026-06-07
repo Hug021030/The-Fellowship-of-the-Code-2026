@@ -1,0 +1,242 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #1a1612;
+  font-family: Georgia, sans-serif;
+  color: #b8860b;
+}
+
+/* MAIN CONTAINER */
+.inventory {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+  background: #4a3d33;
+  border: 3px solid #261e18;
+  border-radius: 15px;
+}
+
+/* SHARED TEXT STYLES */
+.feature-title h1,
+.healthbar,
+.hp-percent-text,
+.item-title,
+.item-count {
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+}
+
+/* HEADER */
+.feature-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.feature-title img {
+  width: auto;
+  height: 120px;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #261e18;
+  box-shadow: 0 4px 8px #00000080;
+}
+
+.feature-title h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 55px;
+  text-align: center;
+}
+
+/* MEMBER INFO */
+.member-info {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #55483d;
+  border: 2px solid #261e18;
+  border-radius: 12px;
+}
+
+.member-name {
+  margin-bottom: 10px;
+}
+
+/* HEALTHBAR */
+.healthbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 25px;
+}
+
+.healthbar-container {
+  flex-grow: 1;
+  position: relative;
+  height: 25px;
+  background-color: #222;
+  border: 2px solid #330000;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.healthbar-fill {
+  height: 100%;
+  background: linear-gradient(to right, #660000, #b30000);
+}
+
+.hp-percent-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000;
+  transition: opacity 0.3s ease;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.healthbar-container:hover .hp-percent-text {
+  opacity: 1;
+}
+
+/* GRID */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* ITEM CARD */
+.item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  background: #f9f9f9;
+  border: 2px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.item:hover {
+  background: #e0e0e0;
+  transform: scale(1.03);
+}
+
+/* SHARED DETAILS FOR ITEM-TITLE AND -COUNT  */
+.item-title, .item-count {
+  position: absolute;
+  z-index: 10;
+  font-size: 12px;
+  text-shadow: 1px 1px 3px #000, -1px -1px 3px #000;
+}
+
+/* ITEM TITLE */
+.item-title {
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  text-align: center;
+}
+
+/* IMAGE BOX */
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* ITEM COUNT */
+.item-count {
+  bottom: 8px;
+  right: 8px;
+}
+
+.item-use {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  z-index: 10;
+  padding: 2px 7px;
+  background: #5f5145;
+  border: 1px solid #261e18;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Georgia, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #b8860b;
+  text-shadow: none;
+  transition: background 0.15s;
+}
+
+.item-use:hover {
+  background: #8a7060;
+}
+
+
+/* NAVIGATION */
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;             
+}
+.navigation-bar button {
+  flex: 1;
+  padding: 10px;
+  background: #5f5145;
+  border: 2px solid #000;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+  color: #b8860b;
+}
+
+.navigation-bar button:hover {
+  background: #ccc;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 10px;
+  font-style: italic;
+  color: #000000;
+}
