@@ -2,27 +2,44 @@
 // Unsere vier Orte mit ihren echten Koordinaten
 
 const orte = [
-{
-  name: "rivendell",
-  latitude: 46.0,    // Schweizer Alpen
-  longitude: 8.0
-},
-{
-  name: "lorien",
-  latitude: 48.27,   // Schwarzwald, Deutschland
-  longitude: 8.2
-}
-{
-  name: "shire",
-  latitude: -37.87,   // Neuseeland
-  longitude: 175.68
-},
-{
-  name: "mordor",
-  latitude: 23.0,     // mitten in der Sahara
-  longitude: 12.0
-}
+  {
+    name: "shire",
+    latitude: -37.87,
+    longitude: 175.68
+  },
+  {
+    name: "mordor",
+    latitude: 23.0,
+    longitude: 12.0
+  },
+  {
+    name: "rivendell",
+    latitude: 46.0,
+    longitude: 8.0
+  },
+  {
+    name: "lorien",
+    latitude: 48.27,
+    longitude: 8.2
+  }
 ];
+
+async function wetterHolen(ort) {
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${ort.latitude}&longitude=${ort.longitude}&current=temperature_2m`;
+
+  try {
+    const antwort = await fetch(url);
+    const daten = await antwort.json();
+    const temperatur = daten.current.temperature_2m;
+
+    const tempElement = document.getElementById(`temp-${ort.name}`);
+    tempElement.textContent = `${Math.round(temperatur)}°C`;
+  } catch (fehler) {
+    console.error("Fehler beim Laden des Wetters:", fehler);
+  }
+}
+
+orte.forEach(wetterHolen);
 
 // Funktion holt das Wetter für EINEN Ort
 async function wetterHolen(ort) {
