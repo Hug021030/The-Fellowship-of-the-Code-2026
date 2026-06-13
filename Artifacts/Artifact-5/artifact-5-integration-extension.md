@@ -32,11 +32,10 @@ To prove our worth as capable members of the Fellowship, we present the HobViewe
 
 ## Design Rationale
 
-insert short design rationale here
+Our logic serves the original intent of the HobViewer from Assignment 1: to give members clear and trustworthy information at a glance. The weather feature delivers this by pulling genuine, up to date temperatures for each realm instead of inventing them, treating every location as a real place with real coordinates.
 
-(Explain your implementation decisions:
-  How does your logic support the intent and value from Assignment 1?
-  How does the implemented behavior reflect your flow and wireframe from Assignment 2?
-  What constraints or assumptions shaped your logic?
-  What did you deliberately not implement yet?
-Clarity over completeness. Structure over cleverness.)
+The behavior follows the flow and wireframe from Assignment 2. The wireframe placed a card for each realm holding a name, a real world location, a temperature and a description. Our logic keeps that structure untouched and simply fills the temperature with a live value once the data arrives, so the page works exactly as designed without any extra action from the member.
+
+A few constraints shaped the logic. We chose the Open-Meteo API because it is free and needs no key, which keeps the feature dependable for an academic submission, and we rely on a real web address through GitHub Pages to fetch the data. If the data ever fails to load, a placeholder value stays visible so the page remains readable.
+
+We deliberately left some things for later: the realm descriptions are still fixed text rather than reacting to live conditions, and we have not added weather icons or a loading state. These were set aside to get the core capability, real data in the right place, working cleanly first. Clarity and structure mattered more to us at this stage than added cleverness.
