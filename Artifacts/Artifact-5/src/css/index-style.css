@@ -66,6 +66,18 @@ body {
     font-variant: small-caps;
 }
 
+
+/* Info Text Main Page */
+.menu-instruction {
+    text-align: center;
+    color: #b8860b;              /* Euer originales Hobbit-Gold */
+    font-size: 24px;             /* Angenehme, dezente Textgröße */
+    font-style: italic;          /* Kursiv, damit es wie eine Anleitung wirkt */
+    margin-bottom: 20px;         /* Abstand nach unten zur Liste */
+    letter-spacing: 0.5px;       /* Leicht auseinandergezogene Buchstaben */
+    font-variant: small-caps;    /* Kapitälchen, passend zum Rest des Designs */
+}
+
 /* BUTTONS */
 .hobbit-list {
     list-style: none;
