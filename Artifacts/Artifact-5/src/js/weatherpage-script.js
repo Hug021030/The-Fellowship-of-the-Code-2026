@@ -1,6 +1,16 @@
 // MIDDLE-EARTH WEATHER SCRIPT
-// Unsere zwei Orte mit ihren echten Koordinaten
+// Unsere vier Orte mit ihren echten Koordinaten
 
+{
+  name: "rivendell",
+  latitude: 46.0,    // Schweizer Alpen
+  longitude: 8.0
+},
+{
+  name: "lorien",
+  latitude: 48.27,   // Schwarzwald, Deutschland
+  longitude: 8.2
+}
 const orte = [
   {
     name: "shire",
