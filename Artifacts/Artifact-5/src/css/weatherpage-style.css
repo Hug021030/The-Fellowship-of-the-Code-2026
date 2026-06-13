@@ -140,3 +140,27 @@
     text-transform: uppercase;
     font-variant: small-caps;
 }
+
+.rivendell-theme {
+    background: linear-gradient(135deg, #1a3c5e, #0d2438);
+    border-left: 8px solid #64b5f6;
+}
+.rivendell-theme .location-name {
+    color: #90caf9;
+}
+
+.lorien-theme {
+    background: linear-gradient(135deg, #4a3f1a, #2e2710);
+    border-left: 8px solid #ffd54f;
+}
+.lorien-theme .location-name {
+    color: #ffe082;
+}
+
+.weather-btn:hover {
+    background-color: #7d5a37;
+    border-color: #261e18;
+    color: #ffffff;
+    transform: skewX(-20deg) translateY(-3px) scale(1.02);  /* hebt den Button leicht an */
+    box-shadow: 0 0 18px #b8860b;                            /* goldenes Leuchten ringsum */
+}
