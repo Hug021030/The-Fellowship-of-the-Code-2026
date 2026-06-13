@@ -30,6 +30,7 @@
 - [weatherpage-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-5/src/css/weatherpage-style.css)
 #### JS File
 - [script.js](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-4/src/js/script.js)
+- [weatherpage-script.js](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-5/src/js/weatherpage-script.js)
 
 ---
 
