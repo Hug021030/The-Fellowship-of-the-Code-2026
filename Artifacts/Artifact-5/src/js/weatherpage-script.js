@@ -1,6 +1,7 @@
 // MIDDLE-EARTH WEATHER SCRIPT
 // Unsere vier Orte mit ihren echten Koordinaten
 
+const orte = [
 {
   name: "rivendell",
   latitude: 46.0,    // Schweizer Alpen
@@ -11,7 +12,6 @@
   latitude: 48.27,   // Schwarzwald, Deutschland
   longitude: 8.2
 }
-const orte = [
   {
     name: "shire",
     latitude: -37.87,   // Neuseeland
