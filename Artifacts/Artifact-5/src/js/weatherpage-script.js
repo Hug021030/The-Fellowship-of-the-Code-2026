@@ -12,16 +12,16 @@ const orte = [
   latitude: 48.27,   // Schwarzwald, Deutschland
   longitude: 8.2
 }
-  {
+{
     name: "shire",
     latitude: -37.87,   // Neuseeland
     longitude: 175.68
-  },
-  {
+},
+{
     name: "mordor",
     latitude: 23.0,     // mitten in der Sahara
     longitude: 12.0
-  }
+}
 ];
 
 // Funktion holt das Wetter für EINEN Ort
