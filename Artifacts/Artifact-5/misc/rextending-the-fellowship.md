@@ -28,7 +28,7 @@ An email is automatically sent containing the submitted quest information.
 
 ## Low-Code App: Ring Collector
 
-For the low-code application task, I created a small game using Microsoft MakeCode Arcade.
+For the low-code application task, we created a small game using Microsoft MakeCode Arcade.
 
 ### Game Link:
 
