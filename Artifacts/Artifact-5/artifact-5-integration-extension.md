@@ -18,12 +18,21 @@ As the Fellowship presses on toward Mordor, no company that hopes to reach the f
 
 To prove our worth as capable members of the Fellowship, we present the HobViewer at the council in its full functionality, where the weather of the Shire, of Mordor, of Rivendell and of Lothlórien is summoned in real time and laid plainly before the eyes of all who gather. Each realm is given its own colour and mood, so that a single glance reveals both the temperature of the land and the spirit of the place. Should the oracle ever fall silent, a guiding value remains in view, so the feature never abandons its reader. As we reach this milestone on our journey, we want one of many features of the TFC ready to be used, so that we may read the skies of Middle-earth at any given moment, and our chances of casting the ring into the fires of Mount Doom rise with every step.
 
+Alas, the Weather Condition Check *(WCC)* was created
+
 ---
 
 ## Decisions
 
 #### Flowchart & Wireframe
 - [designchoices.md](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-5/src/decisions/designchoices.md)
+
+Both flowchart and wireframe serve us as means to conceptionalise our vision. Bringing both to paper supports us on our endeavor to realise our intentions through coding. Chronologic documentation is deemed necessary to show our work-process: From capabilities to design decisions over to generating code.
+
+Our flowchart describes the user flow extended through our new feature. From a user's perspective, users can choose inside the HobViewer to either access the inventory or WCC. When entering the WCC, the user is welcomed with real-time data of areas on Middle-Earth.
+
+Our low-fidelty wireframe displays our vision how we want the WCC to look like. Simplicity over complexity, neatness above overloading. Combining what and how within flowchart and wireframe delivers concept ready to be implemented.
+
 ---
 
 ## Adding Logic and State
