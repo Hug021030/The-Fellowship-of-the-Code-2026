@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [System Capabilitiy](#system-capability)
+- [Decisions](#decisions)
 - [Adding Logic and State](#adding-logic-and-state)
 - [Design Rationale](#design-rationale)
 
@@ -16,7 +17,13 @@ As the Fellowship presses on toward Mordor, no company that hopes to reach the f
 - made our concepts tangible by building the interface through HTML and CSS, then breathing life into it through logic, calling upon an external oracle, the Open-Meteo API, to fetch the present temperature of each land and place it before our members
 
 To prove our worth as capable members of the Fellowship, we present the HobViewer at the council in its full functionality, where the weather of the Shire, of Mordor, of Rivendell and of Lothlórien is summoned in real time and laid plainly before the eyes of all who gather. Each realm is given its own colour and mood, so that a single glance reveals both the temperature of the land and the spirit of the place. Should the oracle ever fall silent, a guiding value remains in view, so the feature never abandons its reader. As we reach this milestone on our journey, we want one of many features of the TFC ready to be used, so that we may read the skies of Middle-earth at any given moment, and our chances of casting the ring into the fires of Mount Doom rise with every step.
-  
+
+---
+
+## Decisions
+
+#### Flowchart & Wireframe
+- [designchoices.md](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-5/src/decisions/designchoices.md)
 ---
 
 ## Adding Logic and State
