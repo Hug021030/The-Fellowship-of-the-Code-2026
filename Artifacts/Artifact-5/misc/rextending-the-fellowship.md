@@ -32,7 +32,7 @@ For the low-code application task, we created a small game using Microsoft MakeC
 
 ### Game Link:
 
-https://makecode.com/_fq7Xai48hfuD
+https://makecode.com/_KX2T7jWX7F30
 
 In the game, the player controls Frodo. His goal is to collect 15 ring fragments in order to assemble the complete ring.
 
