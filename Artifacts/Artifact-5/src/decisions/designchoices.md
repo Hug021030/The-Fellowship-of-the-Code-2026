@@ -20,8 +20,6 @@ Our Flowchart describes user interaction, combined with insight to our script se
 Now, from an user's perspective, when entering the HobViewer you can choose between accessing the inventory or weather page.
 When entering the weather page, the user will be greeted by real-time data to main destinations on their way *There and Back Again*. If certain weather conditions require the user to make adjustments, they can easily switch back to the index page and access their own and other's inventory to make amends.
 
-![Mermaid Flowchart](insert link to flowchart)
-
 ```mermaid
 flowchart TD
 
@@ -63,7 +61,7 @@ P --> C
 
 ## Wireframe
 
-![Wireframe](insert link)
+![Wireframe](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-5/src/decisions/wireframe-weatherpage.png)
 
 The wireframe illustrates the new button on our index page to the left. On the right side, our wireframe for our WCC is displayed. Once entering the page, the user is welcomed by our interface. Interface displays 4 main areas of Middle Earth, providing main and side informations. Main information consists of real-time data about the weather in °C. Down below, we share general info about the area. At the bottom, the button serves as means to return to the index page for further interaction.
 
