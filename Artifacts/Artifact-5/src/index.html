@@ -8,6 +8,29 @@
     
     <title>Hob Viewer</title>
     <meta charset="UTF-8">
+
+    <style> /* FOUC (Flash Of Unstyled Content) Prävention */
+        /* Macht den Hintergrund SOFORT dunkelbraun und den Text gold */
+        html, body { 
+            background-color: #1a1612 !important; 
+            color: #b8860b !important;
+            font-family: Georgia, serif !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Versteckt die ungestylten Elemente (wie das Frodo-Bild), 
+           bis das echte CSS fertig geladen ist */
+        body {
+            opacity: 0;
+            animation: fadeInPage 0.1s forwards;
+        }
+
+        @keyframes fadeInPage {
+            to { opacity: 1; }
+        }
+    </style>
+      
     <link rel="stylesheet" href="./css/index-style.css">
     <link rel="stylesheet" href="./css/weatherpage-style.css">
     <script src="./js/script.js"></script>
