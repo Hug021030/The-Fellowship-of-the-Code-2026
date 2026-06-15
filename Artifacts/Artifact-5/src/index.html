@@ -9,7 +9,7 @@
     <title>Hob Viewer</title>
     <meta charset="UTF-8">
 
-    <style> /* FOUC (Flash Of Unstyled Content) Prävention */
+    <style> /* Prävention FOUC - Vollständig */
         /* Macht den Hintergrund SOFORT dunkelbraun und den Text gold */
         html, body { 
             background-color: #1a1612 !important; 
@@ -17,18 +17,21 @@
             font-family: Georgia, serif !important;
             margin: 0;
             padding: 0;
-        }
+            }
 
-        /* Versteckt die ungestylten Elemente (wie das Frodo-Bild), 
-           bis das echte CSS fertig geladen ist */
+        /* Blendet den gesamten Inhalt erst ein, wenn das CSS bereit ist */
         body {
             opacity: 0;
-            animation: fadeInPage 0.1s forwards;
-        }
+            visibility: hidden;
+            animation: fadeInPage 0.15s ease-in-out forwards;
+            }
 
         @keyframes fadeInPage {
-            to { opacity: 1; }
-        }
+            to { 
+                opacity: 1;
+                visibility: visible;
+                }
+            }
     </style>
       
     <link rel="stylesheet" href="./css/index-style.css">
