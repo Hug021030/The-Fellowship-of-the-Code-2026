@@ -52,11 +52,9 @@ M --> L
 L --> N{Do conditions
         require adjustments?}
 
-N -- No --> O[Continue with journey]
+N -- No --> O[Close PAge]
 
-N -- Yes --> P[Switch to Feature 1
-              to make adjustments]
-P --> C
+N -- Yes, go to Index --> B
 ```
 ---
 
