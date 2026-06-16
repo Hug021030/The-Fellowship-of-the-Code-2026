@@ -34,6 +34,7 @@
       </style>
       
       <link rel="stylesheet" href="./css/memberpage-style.css" />
+      <script src="./js/script.js"></script>
     </head>
   
     <body>
@@ -52,109 +53,125 @@
             <div class="healthbar">
               <span class="health-points">HP</span>
               <div class="healthbar-container">
-              <div class="healthbar-fill" style="width: 47%;"></div>
-              <span class="hp-percent-text">47%</span>
+              <div id="healthBarWidth" class="healthbar-fill" style="width: 47%;"></div>
+              <span id="healtBarText" class="hp-percent-text">47%</span>
               </div>
             </div>
           </section>
           
           <!-- ITEM GRID -->
-          <section class="item-grid"> 
+          <section class="item-grid">
 
             <div class="item">
               <p class="item-title">Torch</p>
               <img src="./images/torch.png" alt="Torch Icon">
               <span class="item-count">4x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
           
             <div class="item">
               <p class="item-title">Bandage</p>
               <img src="./images/bandage.png" alt="Bandage Icon">
-              <span class="item-count">7x</span>
+              <span id="bandageNR" class="item-count">7x</span>
+              <button class="item-use" type="button" onclick="useBandage()">Use</button>
             </div>
  
             <div class="item">
               <p class="item-title">Lembas Bread</p>
               <img src="./images/bread.png" alt="Bread Icon">
-              <span class="item-count">26x</span>
+              <span id="breadNR" class="item-count">26x</span>
+              <button class="item-use" type="button" onclick="eatBread()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Athelas Herb</p>
               <img src="./images/herb.png" alt="Herb Icon">
-              <span class="item-count">9x</span>
+              <span id="herbNR" class="item-count">9x</span>
+              <button class="item-use" type="button" onclick="useHerb()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Original Old Toby</p>
               <img src="./images/tabacco.png" alt="Tabacco Icon">
               <span class="item-count">420x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Honey Cake</p>
               <img src="./images/cake.png" alt="Cake Icon">
               <span class="item-count">12x</span>
+              <button class="item-use" type="button" onclick="eatCake()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Gondorian Ointment</p>
               <img src="./images/ointment.png" alt="Ointment Icon">
               <span class="item-count">5x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">1420er Ale</p>
               <img src="./images/ale.png" alt="Ale Icon">
-              <span class="item-count">3x</span>
+              <span id="aleNR" class="item-count">3x</span>
+              <button class="item-use" type="button" onclick="useAle()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Ent Draught</p>
               <img src="./images/potion.png" alt="Potion Icon">
               <span class="item-count">2x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Rabbit Jerky</p>
               <img src="./images/jerky.png" alt="Jerky Icon">
               <span class="item-count">11x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Hithlain Rope</p>
               <img src="./images/rope.png" alt="Rope Icon">
               <span class="item-count">1x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Bilberry Tea Leaves</p>
               <img src="./images/tea.png" alt="Tea Icon">
               <span class="item-count">67x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Pocket Hankerchief</p>
               <img src="./images/hankerchief.png" alt="Handkerchief Icon">
               <span class="item-count">5x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">The Adventures of Tom Bombadil</p>
               <img src="./images/book.png" alt="Book Icon">
               <span class="item-count">1x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Pouch with Throwing Stones</p>
               <img src="./images/stones.png" alt="Stones Icon">
               <span class="item-count">29x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
             
             <div class="item">
               <p class="item-title">Coin Pouch with Silver Penny </p>
               <img src="./images/coins.png" alt="Coins Icon">
               <span class="item-count">123x</span>
+              <button class="item-use" type="button" onclick="useItem()">Use</button>
             </div>
           </section>
           

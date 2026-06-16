@@ -1,6 +1,6 @@
 
 function useItem() {
-  alert('Cant use this Item right now');
+  alert('You are unable to use this Item at the moment');
 }
 
 //health von member
@@ -10,7 +10,7 @@ let health = 70;
 //item number list so wie sie am refresh drinn sind:
 let itemsList =['4', '7', '26', '9', '420', '12', '5', '3', '2', '11', '1', '67', '5', '1', '29', '123'];
 function useHealth(){
-    //alle die die health vergrößern?
+    //einheitliche function für alle die die health vergrößern?
 }
 
 let bandageNr = 7;
@@ -64,6 +64,7 @@ function eatCake(){
     eat(cake, 5)
 }
 
+//doesnt work yet 
 function eat(whatEaten, healtinput){
         
     if(health += healtinput > 100){
@@ -92,6 +93,22 @@ function useAle(){
         console.log('no more ale left :/');
     }
 }
+
+let herbs = 9;
+function useHerb(){
+    if(herbs > 0){
+        herbs = herbs - 1;
+        document.body.style.filter = `blur(0px)`;
+        document.querySelector('#herbNR').textContent = herbs + 'x';
+    }
+    else{
+        console.log('no more herbs left :/');
+        alert('You dont have any herbs left :/')
+    }
+}
+
+
+
 
 window.onload=function(){
     
