@@ -4,7 +4,7 @@
 
 **Table of Contents**
 
-- [The Red Book of Westmarch - Chapter IV: When Things React](#the-red-book-of-westmarch---chapter-IV-when-things-react)
+- [The Red Book of Westmarch - Chapter IV: When Things React](#the-red-book-of-westmarch---chapter-V-The-Tale-Continues)
   - [Summary](#summary)
   - [Artifact](#artifact)
   - [AI Assistance](#ai-assistance)
