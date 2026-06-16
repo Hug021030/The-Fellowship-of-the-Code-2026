@@ -52,7 +52,7 @@ M --> L
 L --> N{Do conditions
         require adjustments?}
 
-N -- No --> O[Close PAge]
+N -- No --> O[Close Page]
 
 N -- Yes, go to Index --> B
 ```
