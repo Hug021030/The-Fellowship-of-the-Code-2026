@@ -1,4 +1,4 @@
-# The Red Book of Westmarch - Chapter V: ???
+# The Red Book of Westmarch - Chapter V: The Tale Continues
 
 *`"And he that breaks a thing to find out what it is has left the path of wisdom - Gandalf the Grey"`*
 
