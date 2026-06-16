@@ -38,6 +38,7 @@ Our low-fidelty wireframe displays our vision how we want the WCC to look like. 
 ## Adding Logic and State
 
 #### HTML Pages
+- [index.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-5/src/index.html)
 - [weatherpage.html](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-5/src/weatherpage.html)
 #### CSS Files
 - [weatherpage-style](https://github.com/Hug021030/The-Fellowship-of-the-Code-2026/blob/main/Artifacts/Artifact-5/src/css/weatherpage-style.css)
