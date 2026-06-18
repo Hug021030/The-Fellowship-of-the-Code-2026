@@ -1,4 +1,4 @@
-# Artifact V - Logic and State
+# Artifact V - Integration and Extension
 
 ## Table of Contents
 
