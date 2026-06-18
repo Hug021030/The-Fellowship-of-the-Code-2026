@@ -43,7 +43,7 @@ Regarding Wireframe and FLowchart, no AI was needed as we already had frameworks
 
 ## Lessons Learned
 
-Gabriel:
+Gabriel: In this exervise I really got into HTML and CSS programming. I invested several ours researching on how to remove bugs and make the Code faster and more DRY. I had fun and HTMl code is not "scary" anymore.
 
 Alex: As for me, developing the extension went smooth like butter. As we have already done a full development cycle, we were theoretically capable of understanding not only the *what* we want to do, but also the *how* we are going to move forward. Trial and error, iterations and feedback loops made us practically capable of extending the HobViewer, as we think, logically and meaningful, without any bigger hardships. We know what and how we wanted to do it and just did it.
 
