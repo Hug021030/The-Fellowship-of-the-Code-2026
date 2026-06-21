@@ -43,11 +43,11 @@ Regarding Wireframe and FLowchart, no AI was needed as we already had frameworks
 
 ## Lessons Learned
 
-Gabriel: In this exervise I really got into HTML and CSS programming. I invested several ours researching on how to remove bugs and make the Code faster and more DRY. I had fun and HTMl code is not "scary" anymore.
+Gabriel: In this exervise I really got into HTML and CSS programming. I invested several ours researching on how to remove bugs and make the Code faster and more DRY. I had fun and HTML code is not "scary" anymore.
 
 Alex: As for me, developing the extension went smooth like butter. As we have already done a full development cycle, we were theoretically capable of understanding not only the *what* we want to do, but also the *how* we are going to move forward. Trial and error, iterations and feedback loops made us practically capable of extending the HobViewer, as we think, logically and meaningful, without any bigger hardships. We know what and how we wanted to do it and just did it.
 
-Georg:
+Georg: Setting up the JavaScript along with the API implementation turned out to be much simpler than I had initially expected. When I first looked at the task, I assumed the logic behind it would be complicated and difficult to follow, but once I started working through it, most of the things began to make sense. The AI played a big role in this process, helping me understand how the JavaScript actually works and walking me through which pieces of code are responsible for which features. Instead of just handing me the answers, it explained the reasoning behind each part, which made it easier to connect the concepts together. Overall, it was a really educational experience that left me feeling more confident about working with JavaScript and APIs.
 
 Jusuf:
 
