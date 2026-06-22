@@ -49,7 +49,7 @@ Alex: As for me, developing the extension went smooth like butter. As we have al
 
 Georg: Setting up the JavaScript along with the API implementation turned out to be much simpler than I had initially expected. When I first looked at the task, I assumed the logic behind it would be complicated and difficult to follow, but once I started working through it, most of the things began to make sense. The AI played a big role in this process, helping me understand how the JavaScript actually works and walking me through which pieces of code are responsible for which features. Instead of just handing me the answers, it explained the reasoning behind each part, which made it easier to connect the concepts together. Overall, it was a really educational experience that left me feeling more confident about working with JavaScript and APIs.
 
-Jusuf:
+Jusuf: For my part, I did not work as deeply on the main JavaScript implementation as some of the others, but I still contributed by exploring the side tasks with automation and a small low-code arcade game. This helped me understand another way of creating interactive systems without having to write everything manually from scratch.
 
 Arthur:
 
