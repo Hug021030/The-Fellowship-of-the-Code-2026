@@ -51,6 +51,8 @@ Georg: Setting up the JavaScript along with the API implementation turned out to
 
 Jusuf: For my part, I did not work as deeply on the main JavaScript implementation as some of the others, but I still contributed by exploring the side tasks with automation and a small low-code arcade game. This helped me understand another way of creating interactive systems without having to write everything manually from scratch.
 
-Arthur:
+Artur: Over the course of the Semester, it was interesting to see how AI coding has changed the game. Especially when starting out AI can be a bigger help than I would have thought. Additionally in debugging and Error finding it is waaaay faster than any human. However, if you want to use it mor you need to get a paid version. 
+Overall the scripting part was a bit more challenging than just html & css because it is more intricate and complicated.
+
 
 
