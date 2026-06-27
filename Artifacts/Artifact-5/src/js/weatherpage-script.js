@@ -24,23 +24,6 @@ const orte = [
   }
 ];
 
-async function wetterHolen(ort) {
-  const url = `https://api.open-meteo.com/v1/forecast?latitude=${ort.latitude}&longitude=${ort.longitude}&current=temperature_2m`;
-
-  try {
-    const antwort = await fetch(url);
-    const daten = await antwort.json();
-    const temperatur = daten.current.temperature_2m;
-
-    const tempElement = document.getElementById(`temp-${ort.name}`);
-    tempElement.textContent = `${Math.round(temperatur)}°C`;
-  } catch (fehler) {
-    console.error("Fehler beim Laden des Wetters:", fehler);
-  }
-}
-
-orte.forEach(wetterHolen);
-
 // Funktion holt das Wetter für EINEN Ort
 async function wetterHolen(ort) {
   // Die Adresse (URL), an die wir unseren Befehl schicken
